@@ -1,0 +1,18 @@
+//import
+@import "reset";
+@import "component";
+
+
+//vw_s
+@media screen and (max-width: 768px){
+  @import "vw_s";
+  .vw_v{display: none;}
+}
+
+//vw_l
+@media screen and (min-width: 768px){
+  @import "vw_l";
+  .vw_s{display: none;}
+}
+  
+
