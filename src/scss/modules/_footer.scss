@@ -2,11 +2,11 @@
   font-family: "Roboto", sans-serif;
   @include center;
   height: 60px;
-  font-size: 12px;
-  box-shadow: -2px -7px 20px -5px rgb(rgb(189, 189, 189), 0.2);
+  font-size: $footer_font;
+  box-shadow: -2px -7px 20px -5px rgba($shadow 0.2);
 }
 .footer__copyright {
-  background: #fff;
+  background: $footer_color;
 }
 .footer__icon {
   margin-right: 2px;
