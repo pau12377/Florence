@@ -1,15 +1,3 @@
-.Florence {
+body {
   font-family: "Noto Sans JP", sans-serif;
-    &__footer {
-      font-family: "Roboto", sans-serif;
-      @include center;
-      height: 60px;
-      font-size: 12px;
-      box-shadow: -2px -7px 20px -5px rgb(rgb(189, 189, 189), 0.2);
-}
-    &__copyright{
-      &__icon{
-        margin-right: 2px;
-      }
-    }
 }
