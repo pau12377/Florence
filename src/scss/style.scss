@@ -3,3 +3,19 @@
 @import "mixins";
 @import "variables";
 @import "modules";
+
+//vw_s
+@media screen and (max-width: $media_screen_width) {
+  @import "vw_s";
+  .vw_l {
+    display: none;
+  }
+}
+
+//vw_l
+@media screen and (min-width: $media_screen_width) {
+  @import "vw_l";
+  .vw_s {
+    display: none;
+  }
+}
