@@ -3,7 +3,7 @@
   @include center;
   height: 60px;
   font-size: $V_FONT_SIZE_XS;
-  box-shadow: -2px -7px 20px -5px rgba($V_COLOR_GRAY_100 0.2);
+  box-shadow: -2px -7px 20px -5px rgba($V_COLOR_GRAY_100, 0.2);
 }
 .footer__copyright {
   background: $V_COLOR_WHITE_100;

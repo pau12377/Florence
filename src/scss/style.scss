@@ -1,9 +1,8 @@
 //import
 @import "reset";
-@import "modules";
+@import "mixins";
 @import "variables";
-@import "global";
-@import "color";
+@import "modules";
 
 //vw_s
 @media screen and (max-width: 768px) {
