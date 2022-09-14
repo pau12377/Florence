@@ -2,7 +2,7 @@
   font-family: "Roboto", sans-serif;
   @include center;
   height: 60px;
-  font-size: $footer_font;
+  font-size: $V_FONT_SIZE_XS;
   box-shadow: -2px -7px 20px -5px rgba($shadow 0.2);
 }
 .footer__copyright {
