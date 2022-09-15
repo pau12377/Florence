@@ -1,81 +1,73 @@
-.Florence {
-  font-family: "Noto Sans JP", sans-serif;
-  //header
-  &__header {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    height: 80px;
-    width: 100%;
-    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 15%);
-    &__logo {
-      @include center;
-      flex-wrap: wrap;
-      position: absolute;
-      left: 0;
-      margin: 0 45px;
-      height: 100%;
-      z-index: 1;
-      & a {
-        width: 280px;
-        img {
-          width: 280px;
-        }
-      }
-    }
-    &__nav {
-      position: absolute;
-      height: 80px;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-    }
-    &__card {
-      height: 80px;
-      display: flex;
-    }
-    &__item {
-      @include center;
-      &:last-of-type {
-        background: $base_F;
-        transition: all 0.3s ease;
-        &:hover {
-          background: darken($base_F, 15%);
-          transition: all 0.3s ease;
-        }
-      }
-    }
-    &__link {
-      color: #000;
-      font-family: "kefa", sans-serif;
-      font-size: 18px;
-      position: relative;
-      height: 80px;
-      padding: 0 25px;
-      @include center;
-      &:last-of-type {
-        transition: all 0.3s ease;
-      }
-      &::after {
-        border-bottom: 1px solid #000;
-        content: "";
-        position: absolute;
-        top: 58px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        transition: all 0.3s ease;
-        width: 0px;
-      }
-      &:hover::after {
-        width: 40px;
-      }
-    }
-  }
-  //about
-  &__about {
-    &__text {
-      padding-top: 80px;
-    }
-  }
+//header
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 5px 20px 0 $V_COLOR_GRAY1;
+}
+.header__logo {
+  @include center;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 0;
+  margin: 0 45px;
+  height: 100%;
+  z-index: 1;
+}
+.header__logo a {
+  width: 280px;
+}
+.header__logo img {
+  width: 280px;
+}
+.header__nav {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header__card {
+  height: 80px;
+  display: flex;
+}
+.header__item {
+  @include center;
+}
+.header__item:last-of-type {
+  background: $V_COLOR_GREEN_MAIN;
+  transition: all 0.3s ease;
+}
+.header__item:last-of-type:hover {
+  background: darken($V_COLOR_GREEN_MAIN, 15%);
+  transition: all 0.3s ease;
+}
+
+.header__link {
+  color: $V_COLOR_BLACK;
+  font-family: "kefa", sans-serif;
+  font-size: 18px;
+  position: relative;
+  height: 80px;
+  padding: 0 25px;
+  @include center;
+}
+.header__link:last-of-type {
+  transition: all 0.3s ease;
+}
+.header__link:last-of-type::after {
+  border-bottom: 1px solid $V_COLOR_BLACK;
+  content: "";
+  position: absolute;
+  top: 58px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  width: 0px;
+}
+.header__link:hover::after {
+  width: 40px;
 }
