@@ -39,16 +39,16 @@
 }
 .header__item:last-of-type {
   background: $V_COLOR_GREEN_MAIN;
-  transition: all 0.3s ease;
+  transition: $V_TRANSITION3000;
 }
 .header__item:last-of-type:hover {
   background: darken($V_COLOR_GREEN_MAIN, 15%);
-  transition: all 0.3s ease;
+  transition: $V_TRANSITION3000;
 }
 
 .header__link {
   color: $V_COLOR_BLACK;
-  font-family: "kefa", sans-serif;
+  font-family: $V_FONT-FAMILY_MENU;
   font-size: $V_FONT_SIZE_LG;
   position: relative;
   height: 80px;
@@ -56,7 +56,7 @@
   @include center;
 }
 .header__link:last-of-type {
-  transition: all 0.3s ease;
+  transition: $V_TRANSITION3000;
 }
 .header__link:last-of-type::after {
   border-bottom: 1px solid $V_COLOR_BLACK;
@@ -65,7 +65,7 @@
   top: 58px;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
+  transition: $V_TRANSITION3000;
   width: 0px;
 }
 .header__link:hover::after {
