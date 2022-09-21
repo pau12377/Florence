@@ -2,7 +2,7 @@
 .header {
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 9999;
   height: 80px;
   width: 100%;
   box-shadow: 0 5px 20px 0 $V_COLOR_GRAY1;
@@ -31,7 +31,7 @@
   justify-content: flex-end;
 }
 .header__card {
-  height: 80px;
+  height: 100%;
   display: flex;
 }
 .header__item {
@@ -51,7 +51,7 @@
   font-family: $V_FONT-FAMILY_MENU;
   font-size: $V_FONT_SIZE_LG;
   position: relative;
-  height: 80px;
+  height: 100%;
   padding: 0 25px;
   @include center;
 }
