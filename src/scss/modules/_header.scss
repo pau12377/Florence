@@ -20,9 +20,15 @@
 .header__nav {
   height: 100%;
 }
+.header__mobile-logo {
+  display: none;
+}
 .header__card {
   height: 100%;
   display: flex;
+}
+.header__nav-button {
+  display: none;
 }
 .header__item:last-of-type {
   background: $V_COLOR_GREEN_MAIN;
@@ -88,6 +94,7 @@
     width: 200px;
   }
   .header__nav-button {
+    display: block;
     position: absolute;
     top: 20px;
     right: 20px;
