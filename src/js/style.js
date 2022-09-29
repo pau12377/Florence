@@ -3,4 +3,18 @@ $(".navigation").click(() => {
 });
 
 const mySwiper = new Swiper(".swiper", {
+  //オプション
+  effect: "fade",
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    reverseDirection: false,
+  },
+  loop: true,
+  speed: 1000,
+  pagination: {
+    el: ".swiper-pagination",
+    type: "bullets",
+    clickable: true,
+  },
 });
