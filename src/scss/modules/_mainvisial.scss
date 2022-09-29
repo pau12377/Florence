@@ -11,6 +11,26 @@
 .swiper-wrapper {
   display: flex;
   position: relative;
+  margin-bottom: 50px;
+}
+.swiper-catchphrase {
+  position: absolute;
+  left: 40px;
+  font-family: $V_FONT-FAMILY_CATCHPHRASE;
+  font-size: $V_FONT_SIZE_TITLE_NORMAL;
+  z-index: 999;
+  color: $V_COLOR_WHITE0;
+  background: $V_COLOR_BRAUN;
+  padding: 10px;
+}
+.swiper-catchphrase:nth-of-type(1) {
+  bottom: 250px;
+}
+.swiper-catchphrase:nth-of-type(2) {
+  bottom: 200px;
+}
+.swiper-catchphrase:nth-of-type(3) {
+  bottom: 150px;
 }
 .swiper-pagination {
   position: absolute;
