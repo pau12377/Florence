@@ -101,27 +101,27 @@
   }
   .header__nav-button__line:nth-of-type(1) {
     margin-top: 0px;
-    transition: all 0.3s ease;
+    transition: $V_TRANSITION_300MS;
   }
   .open .header__nav-button__line:nth-of-type(1) {
     transform: translateY(10px) rotate(-45deg);
-    transition: all 0.3s ease;
+    transition: $V_TRANSITION_300MS;
   }
   .header__nav-button__line:nth-of-type(2) {
     margin-top: 10px;
-    transition: all 0.3s ease;
+    transition: $V_TRANSITION_300MS;
   }
   .open .header__nav-button__line:nth-of-type(2) {
     opacity: 0;
-    transition: all 0.3s ease;
+    transition: $V_TRANSITION_300MS;
   }
   .header__nav-button__line:nth-of-type(3) {
     margin-top: 10px;
-    transition: all 0.3s ease;
+    transition: $V_TRANSITION_300MS;
   }
   .open .header__nav-button__line:nth-of-type(3) {
     transform: translateY(-13px) rotate(45deg);
-    transition: all 0.3s ease;
+    transition: $V_TRANSITION_300MS;
   }
   .header__card {
     position: fixed;
@@ -130,12 +130,12 @@
     background: $V_COLOR_WHITE0;
     display: block;
     transform: translateX(100%);
-    transition: all 0.3s ease;
+    transition: $V_TRANSITION_300MS;
     height: 100%;
   }
   .open .header__card {
     transform: translateX(0);
-    transition: all 0.3s ease;
+    transition: $V_TRANSITION_300MS;
   }
   .header__link {
     background: $V_COLOR_WHITE0;
@@ -159,7 +159,7 @@
     left: 0;
     right: 0;
     top: 0;
-    transition: all 0.3s ease;
+    transition: $V_TRANSITION_300MS;
     opacity: 0;
   }
   .open.menu__background {
