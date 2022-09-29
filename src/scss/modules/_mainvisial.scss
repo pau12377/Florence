@@ -20,3 +20,16 @@
   left: 40px;
   width: unset;
 }
+.swiper-pagination-bullet {
+  width: 40px;
+  border-radius: 0;
+}
+.swiper-pagination-bullet-active {
+  width: 40px;
+  border-radius: 0;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 2px;
+}
