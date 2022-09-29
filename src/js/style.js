@@ -1,3 +1,3 @@
-$(".header__nav-button").click(() => {
+$(".navigation").click(() => {
   $(".header__nav, .menu__background").toggleClass("open");
 });
