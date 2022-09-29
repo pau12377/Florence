@@ -93,33 +93,33 @@
   .navigation {
     display: block;
   }
-  .navigation__line {
+  .navigation__button-line {
     background: $V_COLOR_BLACK;
     display: block;
     height: 2px;
     width: 30px;
   }
-  .navigation__line:nth-of-type(1) {
+  .navigation__button-line:nth-of-type(1) {
     margin-top: 0px;
     transition: $V_TRANSITION_300MS;
   }
-  .navigation__line:nth-of-type(2) {
+  .navigation__button-line:nth-of-type(2) {
     margin-top: 10px;
     transition: $V_TRANSITION_300MS;
   }
-  .navigation__line:nth-of-type(3) {
+  .navigation__button-line:nth-of-type(3) {
     margin-top: 10px;
     transition: $V_TRANSITION_300MS;
   }
-  .open .navigation__line:nth-of-type(1) {
+  .open .navigation__button-line:nth-of-type(1) {
     transform: translateY(10px) rotate(-45deg);
     transition: $V_TRANSITION_300MS;
   }
-  .open .navigation__line:nth-of-type(2) {
+  .open .navigation__button-line:nth-of-type(2) {
     opacity: 0;
     transition: $V_TRANSITION_300MS;
   }
-  .open .navigation__line:nth-of-type(3) {
+  .open .navigation__button-line:nth-of-type(3) {
     transform: translateY(-13px) rotate(45deg);
     transition: $V_TRANSITION_300MS;
   }
