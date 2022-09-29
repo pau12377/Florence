@@ -83,11 +83,8 @@
     width: 45px;
   }
   .header__nav {
-    position: fixed;
-    right: 0;
-    top: 0;
-    height: 100%;
-    z-index: 1;
+    height: 30px;
+    margin-right: 20px;
   }
   .open .header__nav {
     height: 100%;
