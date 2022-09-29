@@ -23,10 +23,14 @@
 .swiper-pagination-bullet {
   width: 40px;
   border-radius: 0;
+  background: $V_COLOR_WHITE0;
+  opacity: 0.7;
 }
 .swiper-pagination-bullet-active {
   width: 40px;
   border-radius: 0;
+  background: darken($V_COLOR_GREEN_MAIN, 10%);
+  opacity: 1;
 }
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
