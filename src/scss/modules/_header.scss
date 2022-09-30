@@ -27,9 +27,6 @@
   height: 100%;
   display: flex;
 }
-.navigation {
-  display: none;
-}
 .header__item:last-of-type {
   background: $V_COLOR_GREEN_MAIN;
   transition: $V_TRANSITION_300MS;
