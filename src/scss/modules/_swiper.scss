@@ -64,7 +64,7 @@
   .swiper-pagination-bullet {
   margin: 2px;
 }
-.vacancy__wrap {
+.swiper-vacancy__wrap {
   font-size: $V_FONT_SIZE_TITLE_XS;
   font-weight: $V_FONT_WEIGHT_BOLD;
   position: absolute;
@@ -81,10 +81,10 @@
   align-items: center;
   justify-content: center;
 }
-.vacancy__number {
+.swiper-vacancy__number {
   font-size: $V_FONT_SIZE_TITLE_LG;
 }
-.vacancy__contact {
+.swiper-vacancy__contact {
   font-size: $V_FONT_SIZE_NORMAL;
   text-align: center;
   margin-top: 15px;
