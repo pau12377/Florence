@@ -1,9 +1,61 @@
 .navigation {
-  display: none;
+  height: 100%;
 }
+.navigation__card {
+  height: 100%;
+  display: flex;
+}
+.navigation__item:last-of-type {
+  background: $V_COLOR_GREEN_MAIN;
+  transition: $V_TRANSITION_300MS;
+}
+.navigation__item:last-of-type:hover {
+  background: darken($V_COLOR_GREEN_MAIN, 15%);
+  transition: $V_TRANSITION_300MS;
+}
+.navigation__link {
+  position: relative;
+  color: $V_COLOR_BLACK;
+  font-family: $V_FONT-FAMILY_MENU;
+  font-size: $V_FONT_SIZE_LG;
+  height: 100%;
+  padding: 0 25px;
+  @include center;
+}
+.navigation__link:last-of-type {
+  transition: $V_TRANSITION_300MS;
+}
+.navigation__link:last-of-type::after {
+  border-bottom: 1px solid $V_COLOR_BLACK;
+  content: "";
+  position: absolute;
+  top: 58px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: $V_TRANSITION_300MS;
+  width: 0px;
+}
+.navigation__link:hover::after {
+  width: 40px;
+}
+
 // mobile //
 
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .navigation {
+    height: unset;
+  }
+  .navigation__button {
+    display: block;
+  }
+  .navigation {
+    height: 30px;
+    margin-right: 20px;
+  }
+  .open .navigation {
+    height: 100%;
+    width: 200px;
+  }
   .navigation {
     display: block;
   }
@@ -14,7 +66,6 @@
     width: 30px;
   }
   .navigation__button-line:nth-of-type(1) {
-    margin-top: 0px;
     transition: $V_TRANSITION_300MS;
   }
   .navigation__button-line:nth-of-type(2) {
@@ -36,5 +87,47 @@
   .open .navigation__button-line:nth-of-type(3) {
     transform: translateY(-13px) rotate(45deg);
     transition: $V_TRANSITION_300MS;
+  }
+  .navigation__card {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: $V_COLOR_WHITE0;
+    display: block;
+    transform: translateX(100%);
+    transition: $V_TRANSITION_300MS;
+    height: 100%;
+  }
+  .open .navigation__card {
+    transform: translateX(0);
+    transition: $V_TRANSITION_300MS;
+  }
+  .navigation__link {
+    background: $V_COLOR_WHITE0;
+    font-size: $V_FONT_SIZE_SM;
+    font-weight: bold;
+    line-height: 20px;
+    width: 140px;
+    height: 50px;
+    text-align: left;
+  }
+  .navigation__link:last-of-type::after {
+    display: none;
+  }
+  .navigation__item:nth-of-type(1) {
+    padding-top: 60px;
+  }
+  .menu__background {
+    background: $V_COLOR_GRAY2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: $V_TRANSITION_300MS;
+    opacity: 0;
+  }
+  .open.menu__background {
+    opacity: 1;
   }
 }
