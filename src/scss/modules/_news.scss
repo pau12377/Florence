@@ -38,4 +38,15 @@
 .news__text {
   padding: 20px;
   width: 810px;
+  font-size: $V_FONT_SIZE_SM;
+}
+.news__year {
+  font-weight: bold;
+}
+.news__day {
+  font-weight: bold;
+  margin-left: -3px;
+}
+.news__content {
+  margin-left: 10px;
 }
