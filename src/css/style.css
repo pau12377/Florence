@@ -463,7 +463,7 @@ body {
   justify-content: center;
 }
 .swiper-vacancy__number {
-  font-size: 38px;
+  font-size: 35px;
 }
 .swiper-vacancy__contact {
   font-size: 16px;
@@ -546,8 +546,26 @@ body {
     opacity: 1;
   }
 }
-.news {
+.news__wrap {
   background: whitesmoke;
   margin-top: -51px;
   padding: 60px 0;
+}
+.news__title {
+  font-family: "kefa", sans-serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+  margin-left: 20px;
+}
+.news__title--head {
+  color: #88a97a;
+}
+.news__title--small {
+  font-family: "Kiwi Maru", sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.news {
+  border-left: 1px solid;
 }

@@ -1,5 +1,23 @@
-.news {
+.news__wrap {
   background: lighten($V_COLOR_GRAY0, 22%);
   margin-top: -51px;
   padding: 60px 0;
+}
+.news__title {
+  font-family: $V_FONT-FAMILY_MENU;
+  font-size: $V_FONT_SIZE_TITLE_LG;
+  letter-spacing: 3px;
+  margin-left: 20px;
+}
+.news__title--head {
+  color: darken($V_COLOR_GREEN_MAIN, 10%);
+}
+.news__title--small {
+  font-family: $V_FONT-FAMILY_CATCHPHRASE;
+  font-size: $V_FONT_SIZE_LG;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.news {
+  border-left: 1px solid;
 }
