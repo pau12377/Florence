@@ -8,7 +8,6 @@ const mySwiper = new Swiper(".swiper", {
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
-    reverseDirection: false,
   },
   loop: true,
   speed: 1000,
