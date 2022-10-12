@@ -9,7 +9,7 @@
   left: 40px;
   font-family: $V_FONT-FAMILY_CATCHPHRASE;
   font-size: $V_FONT_SIZE_TITLE_NORMAL;
-  z-index: 999;
+  z-index: 5;
   color: $V_COLOR_WHITE0;
   background: $V_COLOR_BRAUN;
   padding: 10px;
@@ -60,7 +60,7 @@
   height: 190px;
   background: lighten($V_COLOR_GREEN_MAIN, 10%);
   border-radius: 100px;
-  z-index: 999;
+  z-index: 5;
   display: flex;
   flex-direction: column;
   align-items: center;
