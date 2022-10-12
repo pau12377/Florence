@@ -27,23 +27,14 @@
   align-items: center;
   justify-content: space-between;
 }
-.news__text__wrap {
+.news__card {
   background: $V_COLOR_WHITE0;
-  height: 100%;
-  display: flex;
-  align-items: center;
   box-shadow: 0 5px 20px 0 $V_COLOR_GRAY3;
-}
-.news__text {
-  display: flex;
   padding: 20px;
   width: 810px;
   font-size: $V_FONT_SIZE_SM;
 }
-.news__year {
-  font-weight: bold;
-}
-.news__day {
+.news__data {
   font-weight: bold;
 }
 .news__content {
