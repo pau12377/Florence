@@ -3,21 +3,24 @@
   margin-top: -51px;
   padding: 60px 0px;
 }
-.news__title {
+.news-title {
+  border-left: 1px solid;
+}
+.news-title__main {
   font-family: $V_FONT-FAMILY_MENU;
   font-size: $V_FONT_SIZE_TITLE_LG;
   letter-spacing: 3px;
-  margin-left: 20px;
-  margin-top: -10px;
+  margin-top: -5px;
+  margin-left: 15px;
 }
-.news__title--head {
+.news-title__head {
   color: darken($V_COLOR_GREEN_MAIN, 10%);
 }
-.news__title--small {
+.news-title__second {
   font-family: $V_FONT-FAMILY_CATCHPHRASE;
   font-size: $V_FONT_SIZE_LG;
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 .news__box {
   display: flex;
