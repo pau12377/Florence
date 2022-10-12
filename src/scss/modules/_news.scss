@@ -1,7 +1,7 @@
-.news__wrap {
+.news {
   background: lighten($V_COLOR_GRAY0, 22%);
   margin-top: -51px;
-  padding: 60px 0;
+  padding: 60px 0px;
 }
 .news__title {
   font-family: $V_FONT-FAMILY_MENU;
@@ -18,9 +18,6 @@
   font-size: $V_FONT_SIZE_LG;
   margin-top: 10px;
   margin-left: 20px;
-}
-.news {
-  border-left: 1px solid;
 }
 .news__card {
   display: flex;
