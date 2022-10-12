@@ -45,10 +45,8 @@
   background: darken($V_COLOR_GREEN_MAIN, 10%);
   opacity: 1;
 }
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet {
-  margin: 2px;
+.swiper-pagination-bullet {
+  margin: 2px !important;
 }
 .swiper-vacancy {
   font-size: $V_FONT_SIZE_TITLE_XS;
