@@ -7,15 +7,15 @@
 .swiper-catchphrase {
   position: absolute;
   left: 40px;
-  font-family: $V_FONT-FAMILY_CATCHPHRASE;
-  font-size: $V_FONT_SIZE_TITLE_NORMAL;
+  font-family: $V_FONT-FAMILY_GOTHIC1;
+  font-size: $V_FONT_SIZE_4X;
   z-index: 5;
   color: $V_COLOR_WHITE0;
   background: $V_COLOR_BROWN;
   padding: 10px;
 }
 .swiper-catchphrase__small {
-  font-size: $V_FONT_SIZE_TITLE_SM;
+  font-size: $V_FONT_SIZE_3X;
   margin-left: 2px;
 }
 .swiper-catchphrase:nth-of-type(1) {
@@ -49,7 +49,7 @@
   margin: 2px !important;
 }
 .swiper-vacancy {
-  font-size: $V_FONT_SIZE_TITLE_XS;
+  font-size: $V_FONT_SIZE_2X;
   font-weight: $V_FONT_WEIGHT_BOLD;
   position: absolute;
   bottom: 50px;
@@ -66,7 +66,7 @@
   box-sizing: border-box;
 }
 .swiper-vacancy__number {
-  font-size: $V_FONT_SIZE_TITLE_LG;
+  font-size: $V_FONT_SIZE_5X;
 }
 .swiper-vacancy__contact {
   font-size: $V_FONT_SIZE_NORMAL;
