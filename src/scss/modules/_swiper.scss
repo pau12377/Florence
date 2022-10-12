@@ -31,14 +31,9 @@
 }
 .swiper-pagination {
   position: absolute;
-}
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  bottom: 50px;
-  left: 40px;
-  width: unset;
+  bottom: 50px !important;
+  left: 40px !important;
+  width: unset !important;
 }
 .swiper-pagination-bullet {
   width: 40px;
