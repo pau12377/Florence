@@ -48,3 +48,13 @@
 .swiper-pagination-bullet {
   margin: 2px !important;
 }
+
+//mobile
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .swiper {
+    width: 100%;
+  }
+  .swiper img {
+    width: 100%;
+  }
+}
