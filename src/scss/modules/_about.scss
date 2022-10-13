@@ -1,2 +1,12 @@
 .about {
+  text-align: center;
+  margin: 70px 0;
+}
+.about__lead {
+  font-family: $V_FONT-FAMILY_MAIN;
+  font-size: $V_FONT_SIZE_NORMAL;
+  line-height: 1.8;
+  line-height: 2;
+  letter-spacing: 2px;
+  margin-top: 30px;
 }
