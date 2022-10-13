@@ -7,9 +7,10 @@
   letter-spacing: 2px;
 }
 .apartment__card {
-  width: 470px;
+  width: 400px;
   background: $V_COLOR_PINK_MAIN;
-  padding: 25px;
+  padding: 30px;
+  box-shadow: 0 5px 20px 0 $V_COLOR_GRAY1;
 }
 .apartment__title {
   font-family: $V_FONT-FAMILY_SERIF0;
@@ -17,8 +18,9 @@
   letter-spacing: 3px;
 }
 .apartment__text {
-  padding-top: 15px;
+  padding: 20px 0;
   line-height: 1.6;
+  letter-spacing: 1px;
 }
 .apartment__catchphrase {
   font-size: $V_FONT_SIZE_LG;
