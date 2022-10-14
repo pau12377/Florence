@@ -10,10 +10,20 @@
   display: flex;
   justify-content: space-between;
 }
+.apartment__link {
+  color: unset;
+}
 .apartment__card {
   width: 420px;
   padding: 30px;
-  box-shadow: 0 5px 20px 0 $V_COLOR_GRAY1;
+  border-radius: 7px;
+  box-shadow: 10px 20px 15px $V_COLOR_GRAY1;
+  transition: $V_TRANSITION_300MS;
+}
+.apartment__card:hover {
+  transform: translate(5px, 5px);
+  box-shadow: unset;
+  transition: $V_TRANSITION_300MS;
 }
 .apartment__card.florenceA {
   background: lighten($V_COLOR_PINK_MAIN, 5%);
