@@ -6,8 +6,12 @@
   margin: 50px 0;
   letter-spacing: 2px;
 }
+.apartment__wrap {
+  display: flex;
+  justify-content: space-between;
+}
 .apartment__card {
-  width: 400px;
+  width: 420px;
   padding: 30px;
   box-shadow: 0 5px 20px 0 $V_COLOR_GRAY1;
 }
