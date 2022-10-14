@@ -8,9 +8,14 @@
 }
 .apartment__card {
   width: 400px;
-  background: $V_COLOR_PINK_MAIN;
   padding: 30px;
   box-shadow: 0 5px 20px 0 $V_COLOR_GRAY1;
+}
+.apartment__card.florenceA {
+  background: lighten($V_COLOR_PINK_MAIN, 5%);
+}
+.apartment__card.florenceB {
+  background: lighten($V_COLOR_BLUE_MAIN, 10%);
 }
 .apartment__title {
   font-family: $V_FONT-FAMILY_SERIF0;
@@ -27,4 +32,7 @@
   margin-top: 10px;
   border-bottom: 2px solid;
   line-height: 2rem;
+}
+.apartment__img img {
+  width: 100%;
 }
