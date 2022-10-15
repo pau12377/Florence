@@ -9,6 +9,24 @@
   display: flex;
 }
 .infomation__table {
+  margin-top: 100px;
+  margin-left: 50px;
   line-height: 1.4;
   width: 500px;
+}
+.infomation__row {
+  border-top: 1px solid $V_COLOR_GRAY0;
+}
+.infomation__row:nth-of-type(3) {
+  border-bottom: 1px solid $V_COLOR_GRAY0;
+}
+.infomation__header {
+  width: 60px;
+  padding: 20px;
+  vertical-align: middle;
+  background: rgb($V_COLOR_GRAY0, 30%);
+}
+.infomation__data {
+  padding: 20px;
+  vertical-align: middle;
 }
