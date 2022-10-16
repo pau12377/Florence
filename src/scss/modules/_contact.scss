@@ -10,4 +10,15 @@
   width: 100%;
   background: rgb($V_COLOR_WHITE0, 0.9);
   height: 510px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.contact__lead {
+  width: 580px;
+  margin: 0 auto;
+  margin-top: 50px;
+  line-height: 1.6;
+}
+.contact__lead p:nth-of-type(3) {
+  margin-top: 10px;
 }
