@@ -1,11 +1,12 @@
 .tel {
   padding: 50px;
   text-align: center;
+  position: relative;
 }
 .tel__title {
   font-size: $V_FONT_SIZE_XL;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .tel__title::before,
 .tel__title::after {
@@ -23,6 +24,11 @@
   right: 230px;
 }
 .tel__number {
-  font-size: $V_FONT_SIZE_5XL;
+  font-size: $V_FONT_SIZE_4XL;
   font-weight: $V_FONT_WEIGHT_BOLD;
+}
+.tel .material-icons {
+  font-size: $V_FONT_SIZE_4XL;
+  position: relative;
+  top: 4px;
 }
