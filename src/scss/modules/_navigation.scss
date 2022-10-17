@@ -1,3 +1,4 @@
+// Florence //
 .navigation {
   height: 100%;
 }
@@ -39,8 +40,7 @@
   width: 40px;
 }
 
-// mobile //
-
+// Florence mobile //
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
   .navigation {
     height: unset;
@@ -123,4 +123,9 @@
   .open.menu__background {
     opacity: 1;
   }
+}
+
+// FlorenceA //
+.florenceA .navigation__item:last-of-type {
+  background: $V_COLOR_PINK_MAIN;
 }
