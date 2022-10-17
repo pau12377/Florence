@@ -1,4 +1,4 @@
-//header
+// Florence //
 .header {
   position: sticky;
   top: 0;
@@ -23,8 +23,7 @@
   display: none;
 }
 
-// mobile //
-
+// Florence mobile //
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
   .header__pc-logo {
     display: none;
@@ -41,4 +40,9 @@
   .header__logo .header__mobile-logo {
     width: 45px;
   }
+}
+
+// FlorenceA //
+.florenceA .navigation__item:nth-of-type(2) {
+  display: none;
 }
