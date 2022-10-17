@@ -26,9 +26,13 @@
 .tel__number {
   font-size: $V_FONT_SIZE_4XL;
   font-weight: $V_FONT_WEIGHT_BOLD;
+  color: $V_COLOR_BLACK;
 }
 .tel .material-icons {
   font-size: $V_FONT_SIZE_4XL;
   position: relative;
   top: 4px;
+}
+a[href^="tel:"] {
+  pointer-events: none;
 }
