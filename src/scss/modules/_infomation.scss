@@ -31,6 +31,9 @@
   padding: 20px;
   vertical-align: middle;
 }
+.infomation__brank {
+  display: none;
+}
 
 //mobile
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
@@ -52,5 +55,8 @@
   }
   .infomation__data {
     padding: 15px;
+  }
+  .infomation__brank {
+    display: block;
   }
 }
