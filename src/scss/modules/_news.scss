@@ -1,0 +1,23 @@
+.news {
+  background: lighten($V_COLOR_GRAY0, 22%);
+  margin-top: -51px;
+  padding: 60px 0px;
+}
+.news__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.news__card {
+  background: $V_COLOR_WHITE0;
+  box-shadow: 0 5px 20px 0 $V_COLOR_GRAY3;
+  padding: 20px;
+  width: 810px;
+  font-size: $V_FONT_SIZE_SM;
+}
+.news__data {
+  font-weight: bold;
+}
+.news__content {
+  margin-left: 10px;
+}

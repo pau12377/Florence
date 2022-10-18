@@ -1,0 +1,19 @@
+.news-title {
+  border-left: 1px solid;
+}
+.news-title__main {
+  font-family: $V_FONT-FAMILY_SERIF0;
+  font-size: $V_FONT_SIZE_5XL;
+  letter-spacing: 3px;
+  margin-top: -5px;
+  margin-left: 15px;
+}
+.news-title__head {
+  color: darken($V_COLOR_GREEN_MAIN, 10%);
+}
+.news-title__second {
+  font-family: $V_FONT-FAMILY_GOTHIC1;
+  font-size: $V_FONT_SIZE_LG;
+  margin-top: 10px;
+  margin-left: 15px;
+}
