@@ -28,6 +28,13 @@
     flex-direction: column;
     align-items: unset;
   }
+  .news-title__main {
+    font-size: $V_FONT_SIZE_3X;
+  }
+  .news-title__second {
+    font-size: $V_FONT_SIZE_NORMAL;
+    margin-top: 5px;
+  }
   .news__card {
     padding: 20px;
     margin-top: 20px;
