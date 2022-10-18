@@ -96,3 +96,11 @@
 .florenceA .swiper-slide {
   text-align: right;
 }
+.florenceA .swiper-catchphrase {
+  color: $V_COLOR_BROWN;
+  background: unset;
+}
+.florenceA .swiper-catchphrase:nth-of-type(4) {
+  bottom: 100px;
+  letter-spacing: 4px;
+}
