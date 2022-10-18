@@ -104,3 +104,17 @@
   bottom: 100px;
   letter-spacing: 4px;
 }
+.florenceA .swiper-pagination {
+  top: 430px;
+  right: 450px;
+}
+.florenceA .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  border: 1px solid;
+  margin: 0 8px !important;
+}
+.florenceA .swiper-pagination-bullet-active {
+  background: darken($V_COLOR_PINK_MAIN, 10%);
+}
