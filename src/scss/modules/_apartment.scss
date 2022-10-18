@@ -25,11 +25,31 @@
   box-shadow: unset;
   transition: $V_TRANSITION_300MS;
 }
-.apartment__card.florenceA {
+.apartment__card--florenceA {
   background: lighten($V_COLOR_PINK_MAIN, 5%);
+  width: 420px;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 10px 20px 15px $V_COLOR_GRAY1;
+  transition: $V_TRANSITION_300MS;
 }
-.apartment__card.florenceB {
+.apartment__card--florenceA:hover {
+  transform: translate(5px, 5px);
+  box-shadow: unset;
+  transition: $V_TRANSITION_300MS;
+}
+.apartment__card--florenceB {
   background: lighten($V_COLOR_BLUE_MAIN, 10%);
+  width: 420px;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 10px 20px 15px $V_COLOR_GRAY1;
+  transition: $V_TRANSITION_300MS;
+}
+.apartment__card--florenceB:hover {
+  transform: translate(5px, 5px);
+  box-shadow: unset;
+  transition: $V_TRANSITION_300MS;
 }
 .apartment__title {
   font-family: $V_FONT-FAMILY_SERIF0;
