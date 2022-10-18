@@ -24,4 +24,14 @@
 
 //mobile
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .news__box {
+    flex-direction: column;
+    align-items: unset;
+  }
+  .news__card {
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: $V_FONT_SIZE_SM;
+  }
 }
