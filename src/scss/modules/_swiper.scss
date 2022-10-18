@@ -100,10 +100,6 @@
   color: $V_COLOR_BROWN;
   background: unset;
 }
-.florenceA .swiper-catchphrase:nth-of-type(4) {
-  bottom: 100px;
-  letter-spacing: 4px;
-}
 .florenceA .swiper-pagination {
   top: 430px;
   right: 450px;
@@ -117,4 +113,17 @@
 }
 .florenceA .swiper-pagination-bullet-active {
   background: darken($V_COLOR_PINK_MAIN, 10%);
+}
+.florenceA .swiper-catchphrase:nth-of-type(1) {
+  bottom: 280px;
+}
+.florenceA .swiper-catchphrase:nth-of-type(2) {
+  bottom: 230px;
+}
+.florenceA .swiper-catchphrase:nth-of-type(3) {
+  bottom: 180px;
+}
+.florenceA .swiper-catchphrase:nth-of-type(4) {
+  bottom: 130px;
+  letter-spacing: 4px;
 }
