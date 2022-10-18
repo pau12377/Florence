@@ -17,3 +17,14 @@
   margin-top: 10px;
   margin-left: 15px;
 }
+
+//mobile
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .news-title__main {
+    font-size: $V_FONT_SIZE_3X;
+  }
+  .news-title__second {
+    font-size: $V_FONT_SIZE_NORMAL;
+    margin-top: 5px;
+  }
+}
