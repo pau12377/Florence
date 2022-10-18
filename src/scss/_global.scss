@@ -6,3 +6,12 @@ body {
   margin-right: auto;
   width: 1000px;
 }
+
+//mobile
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .inner {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+}
