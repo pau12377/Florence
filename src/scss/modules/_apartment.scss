@@ -70,3 +70,14 @@
 .apartment__img img {
   width: 100%;
 }
+
+// mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .apartment__wrap {
+    flex-direction: column;
+  }
+  .apartment__card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
