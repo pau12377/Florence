@@ -87,7 +87,11 @@
   .apartment__wrap {
     flex-direction: column;
   }
-  .apartment__card {
+  .apartment__card--florenceA {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .apartment__card--florenceB {
     width: 100%;
     box-sizing: border-box;
   }
@@ -100,5 +104,8 @@
   }
   .apartment__text {
     font-size: $V_FONT_SIZE_SM;
+  }
+  .apartment__blank {
+    display: block;
   }
 }
