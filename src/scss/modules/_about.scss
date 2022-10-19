@@ -36,8 +36,15 @@
 }
 
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .about {
+    margin: 50px 0;
+  }
+  .about__lead {
+    font-size: $V_FONT_SIZE_SM;
+  }
   .about__frame {
     width: 100%;
+    padding: 40px 0 0 0;
   }
   .about__frame-deco {
     display: none;
