@@ -40,7 +40,6 @@
 }
 
 // mobile //
-
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
   .navigation {
     height: unset;
@@ -109,18 +108,5 @@
   }
   .navigation__item:nth-of-type(1) {
     padding-top: 60px;
-  }
-  .menu__background {
-    background: $V_COLOR_GRAY2;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    transition: $V_TRANSITION_300MS;
-    opacity: 0;
-  }
-  .open.menu__background {
-    opacity: 1;
   }
 }
