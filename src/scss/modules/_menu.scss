@@ -1,0 +1,16 @@
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .menu__background {
+    background: $V_COLOR_GRAY2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: $V_TRANSITION_300MS;
+    opacity: 0;
+    z-index: 10;
+  }
+  .open.menu__background {
+    opacity: 1;
+  }
+}
