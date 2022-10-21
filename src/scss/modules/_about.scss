@@ -34,3 +34,20 @@
   border-bottom: 1px solid;
   border-right: 1px solid;
 }
+
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .about {
+    padding: 70px 0 20px;
+  }
+  .about__lead {
+    font-size: $V_FONT_SIZE_SM;
+    text-align: left;
+  }
+  .about__frame {
+    width: 100%;
+    padding: 30px 0 0 0;
+  }
+  .about__frame-deco {
+    display: none;
+  }
+}
