@@ -24,3 +24,25 @@
   margin-top: 15px;
   line-height: 1.3;
 }
+
+//mobile
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .swiper-vacancy {
+    font-size: $V_FONT_SIZE_NORMAL;
+    bottom: -50px;
+    right: 10px;
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+  }
+  .swiper-vacancy__number {
+    font-size: $V_FONT_SIZE_2XL;
+  }
+  .swiper-vacancy__contact {
+    font-size: $V_FONT_SIZE_XS;
+    margin-top: 10px;
+  }
+  .swiper-vacancy__contact--mobile {
+    display: none;
+  }
+}
