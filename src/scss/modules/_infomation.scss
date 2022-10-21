@@ -1,0 +1,33 @@
+.infomation {
+  padding: 70px 0;
+}
+.infomation__map {
+  width: 50%;
+  height: 300px;
+}
+.infomation__wrap {
+  display: flex;
+  margin-top: 50px;
+  align-items: flex-end;
+}
+.infomation__table {
+  margin-left: 50px;
+  line-height: 1.4;
+  width: 50%;
+}
+.infomation__row {
+  border-top: 1px solid $V_COLOR_GRAY0;
+}
+.infomation__row:nth-of-type(3) {
+  border-bottom: 1px solid $V_COLOR_GRAY0;
+}
+.infomation__header {
+  width: 60px;
+  padding: 20px;
+  vertical-align: middle;
+  background: rgb($V_COLOR_GRAY0, 30%);
+}
+.infomation__data {
+  padding: 20px;
+  vertical-align: middle;
+}
