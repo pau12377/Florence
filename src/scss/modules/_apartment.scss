@@ -70,3 +70,42 @@
 .apartment__img img {
   width: 100%;
 }
+.apartment__blank {
+  display: none;
+}
+
+// mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .apartment {
+    padding: 50px 0;
+  }
+  .apartment__lead {
+    text-align: left;
+    font-size: $V_FONT_SIZE_SM;
+    line-height: 1.6;
+  }
+  .apartment__wrap {
+    flex-direction: column;
+  }
+  .apartment__card--florenceA {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .apartment__card--florenceB {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .apartment__link:nth-of-type(2) {
+    margin-top: 40px;
+  }
+  .apartment__catchphrase {
+    font-size: $V_FONT_SIZE_NORMAL;
+    line-height: 1.4;
+  }
+  .apartment__text {
+    font-size: $V_FONT_SIZE_SM;
+  }
+  .apartment__blank {
+    display: block;
+  }
+}
