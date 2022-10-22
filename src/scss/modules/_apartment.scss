@@ -1,0 +1,111 @@
+.apartment {
+  padding: 70px 0;
+}
+.apartment__lead {
+  text-align: center;
+  margin: 50px 0;
+  letter-spacing: 2px;
+}
+.apartment__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.apartment__link {
+  color: unset;
+}
+.apartment__card {
+  width: 420px;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 10px 20px 15px $V_COLOR_GRAY1;
+  transition: $V_TRANSITION_300MS;
+}
+.apartment__card:hover {
+  transform: translate(5px, 5px);
+  box-shadow: unset;
+  transition: $V_TRANSITION_300MS;
+}
+.apartment__card--florenceA {
+  background: lighten($V_COLOR_PINK_MAIN, 5%);
+  width: 420px;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 10px 20px 15px $V_COLOR_GRAY1;
+  transition: $V_TRANSITION_300MS;
+}
+.apartment__card--florenceA:hover {
+  transform: translate(5px, 5px);
+  box-shadow: unset;
+  transition: $V_TRANSITION_300MS;
+}
+.apartment__card--florenceB {
+  background: lighten($V_COLOR_BLUE_MAIN, 10%);
+  width: 420px;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 10px 20px 15px $V_COLOR_GRAY1;
+  transition: $V_TRANSITION_300MS;
+}
+.apartment__card--florenceB:hover {
+  transform: translate(5px, 5px);
+  box-shadow: unset;
+  transition: $V_TRANSITION_300MS;
+}
+.apartment__title {
+  font-family: $V_FONT-FAMILY_SERIF0;
+  font-size: $V_FONT_SIZE_2XL;
+  letter-spacing: 3px;
+}
+.apartment__text {
+  padding: 20px 0;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+.apartment__catchphrase {
+  font-size: $V_FONT_SIZE_LG;
+  margin-top: 10px;
+  border-bottom: 2px solid;
+  line-height: 2rem;
+}
+.apartment__img img {
+  width: 100%;
+}
+.apartment__blank {
+  display: none;
+}
+
+// mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .apartment {
+    padding: 50px 0;
+  }
+  .apartment__lead {
+    text-align: left;
+    font-size: $V_FONT_SIZE_SM;
+    line-height: 1.6;
+  }
+  .apartment__wrap {
+    flex-direction: column;
+  }
+  .apartment__card--florenceA {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .apartment__card--florenceB {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .apartment__link:nth-of-type(2) {
+    margin-top: 40px;
+  }
+  .apartment__catchphrase {
+    font-size: $V_FONT_SIZE_NORMAL;
+    line-height: 1.4;
+  }
+  .apartment__text {
+    font-size: $V_FONT_SIZE_SM;
+  }
+  .apartment__blank {
+    display: block;
+  }
+}
