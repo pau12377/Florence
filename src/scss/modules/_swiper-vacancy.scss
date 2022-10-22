@@ -1,0 +1,48 @@
+.swiper-vacancy {
+  font-size: $V_FONT_SIZE_2XL;
+  font-weight: $V_FONT_WEIGHT_BOLD;
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+  width: 190px;
+  height: 190px;
+  background: lighten($V_COLOR_GREEN_MAIN, 10%);
+  border-radius: 100px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.swiper-vacancy__number {
+  font-size: $V_FONT_SIZE_5XL;
+}
+.swiper-vacancy__contact {
+  font-size: $V_FONT_SIZE_NORMAL;
+  text-align: center;
+  margin-top: 15px;
+  line-height: 1.3;
+}
+
+//mobile
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .swiper-vacancy {
+    font-size: $V_FONT_SIZE_NORMAL;
+    bottom: -50px;
+    right: 10px;
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+  }
+  .swiper-vacancy__number {
+    font-size: $V_FONT_SIZE_2XL;
+  }
+  .swiper-vacancy__contact {
+    font-size: $V_FONT_SIZE_XS;
+    margin-top: 10px;
+  }
+  .swiper-vacancy__contact--mobile {
+    display: none;
+  }
+}
