@@ -17,7 +17,7 @@
 .navigation__link {
   position: relative;
   color: $V_COLOR_BLACK;
-  font-family: $V_FONT-FAMILY_MENU;
+  font-family: $V_FONT-FAMILY_SERIF0;
   font-size: $V_FONT_SIZE_LG;
   height: 100%;
   padding: 0 25px;
@@ -109,19 +109,6 @@
   }
   .navigation__item:nth-of-type(1) {
     padding-top: 60px;
-  }
-  .menu__background {
-    background: $V_COLOR_GRAY2;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    transition: $V_TRANSITION_300MS;
-    opacity: 0;
-  }
-  .open.menu__background {
-    opacity: 1;
   }
 }
 
