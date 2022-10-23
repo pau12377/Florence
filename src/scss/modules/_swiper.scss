@@ -131,3 +131,10 @@
   background: $V_COLOR_PINK_MAIN;
   display: none;
 }
+
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .florenceA .swiper-slide img {
+    width: 80%;
+  }
+}
