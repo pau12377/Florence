@@ -154,4 +154,17 @@
     bottom: 25px;
     letter-spacing: 4px;
   }
+  .florenceA .swiper-pagination {
+    top: unset;
+    bottom: 10px;
+    left: 0;
+    right: unset;
+  }
+  .florenceA .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    border: 1px solid;
+    margin: 0 5px !important;
+  }
 }
