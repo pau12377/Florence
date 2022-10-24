@@ -1,8 +1,8 @@
-lightGallery(document.getElementById("lightgallery"), {
+lightGallery(document.getElementById("lightgallery__floor-plan"), {
   plugins: [lgZoom, lgThumbnail],
   speed: 500,
 });
-lightGallery(document.getElementById("lightgallery2"), {
+lightGallery(document.getElementById("lightgallery__living"), {
   plugins: [lgZoom, lgThumbnail],
   speed: 500,
 });
