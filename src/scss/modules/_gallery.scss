@@ -75,4 +75,7 @@
     padding: 8px;
     border-radius: 20px;
   }
+  .gallery__item a:hover:after {
+    width: 0px;
+  }
 }
