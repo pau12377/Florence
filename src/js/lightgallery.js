@@ -26,3 +26,7 @@ lightGallery(document.getElementById("lightgallery__toilet"), {
   plugins: [lgZoom, lgThumbnail],
   speed: 500,
 });
+lightGallery(document.getElementById("lightgallery__entrance"), {
+  plugins: [lgZoom, lgThumbnail],
+  speed: 500,
+});
