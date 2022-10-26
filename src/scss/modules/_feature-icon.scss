@@ -10,6 +10,8 @@
   width: 90px;
   height: 90px;
   color: $V_COLOR_BROWN;
+  position: relative;
+  z-index: 10;
 }
 .feature-icon__point {
   font-size: $V_FONT_SIZE_LG;
