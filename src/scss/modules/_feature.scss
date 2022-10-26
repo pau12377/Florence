@@ -1,4 +1,8 @@
 // FlorenceA //
+.feature__card {
+  width: 280px;
+  padding-top: 70px;
+}
 .feature__image {
   background-image: url(../img/FlorenceA_Faeture_Exterior.jpg);
   background-size: cover;
@@ -12,4 +16,8 @@
   font-size: $V_FONT_SIZE_LG;
   font-weight: $V_FONT_WEIGHT_BOLD;
   margin-top: 30px;
+}
+.feature__text {
+  margin-top: 20px;
+  line-height: 1.4;
 }
