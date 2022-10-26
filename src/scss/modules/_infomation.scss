@@ -35,28 +35,7 @@
   display: none;
 }
 
-//mobile
-@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
-  .infomation__wrap {
-    flex-direction: column;
-  }
-  .infomation__map {
-    width: 100%;
-    height: 300px;
-  }
-  .infomation__table {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 50px;
-    font-size: $V_FONT_SIZE_SM;
-  }
-  .infomation__header {
-    padding: 15px;
-  }
-  .infomation__data {
-    padding: 15px;
-  }
-  .infomation__blank {
-    display: block;
-  }
+// FlorenceA //
+.florenceA .infomation__table {
+  width: 100%;
 }
