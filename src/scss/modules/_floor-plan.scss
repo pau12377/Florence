@@ -1,7 +1,14 @@
+.floor-plan {
+  display: flex;
+  margin-top: 30px;
+}
+.floor-plan__card {
+  margin: 20px 60px 0 0;
+}
 .floor-plan__image img {
   width: 300px;
 }
 .floor-plan__title {
-  margin: 30px 10px 10px;
+  margin: 0 10px 10px;
   font-size: $V_FONT_SIZE_XL;
 }
