@@ -28,4 +28,8 @@
   .gallery-header__header {
     background-position: right;
   }
+  .gallery-header__lead {
+    font-size: $V_FONT_SIZE_SM;
+    padding: 40px 0;
+  }
 }
