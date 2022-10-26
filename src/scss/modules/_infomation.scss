@@ -18,7 +18,7 @@
 .infomation__row {
   border-top: 1px solid $V_COLOR_GRAY0;
 }
-.infomation__row:nth-of-type(3) {
+.infomation__row:last-of-type {
   border-bottom: 1px solid $V_COLOR_GRAY0;
 }
 .infomation__header {
