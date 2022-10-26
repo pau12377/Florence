@@ -7,17 +7,20 @@
   display: flex;
   padding: 70px 0 40px;
 }
-.gallery-image {
-  width: 100%;
+.gallery__button {
+  color: $V_COLOR_BROWN;
+  background: $V_COLOR_WHITE0;
+  border: 1px solid $V_COLOR_BROWN;
+  padding: 20px;
+  border-radius: 50px;
+  width: 220px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  transition: $V_TRANSITION_300MS;
 }
-.gallery-image__box--upper {
-  display: flex;
-  justify-content: flex-start;
-}
-.gallery-image__box--below {
-  display: flex;
-  justify-content: flex-end;
-}
-.gallery-image__interior {
-  margin: 0 0 20px 25px;
+.gallery__button:hover {
+  color: $V_COLOR_WHITE0;
+  background: $V_COLOR_BROWN;
+  transition: $V_TRANSITION_300MS;
 }
