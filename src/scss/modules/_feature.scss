@@ -10,13 +10,27 @@
   margin: 0 25px;
 }
 .feature__image {
-  background-image: url(../img/FlorenceA_Faeture_Exterior.jpg);
   background-size: cover;
   width: 290px;
   height: 290px;
   border-radius: 100%;
   border: 1px solid;
   margin-top: -80px;
+}
+.feature__image.exterior {
+  background-image: url(../img/FlorenceA_Faeture_Exterior.jpg);
+}
+.feature__image.security {
+  background-image: url(../img/FlorenceA_Faeture_Security.jpg);
+}
+.feature__image.kitcken {
+  background-image: url(../img/FlorenceA_Faeture_Kitcken.jpg);
+}
+.feature__image.wash {
+  background-image: url(../img/FlorenceA_Faeture_Wash.jpg);
+}
+.feature__image.storage {
+  background-image: url(../img/FlorenceA_Faeture_Storage.jpg);
 }
 .feature__title {
   font-size: $V_FONT_SIZE_LG;
