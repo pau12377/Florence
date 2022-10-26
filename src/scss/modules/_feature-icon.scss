@@ -1,0 +1,19 @@
+// florenceA //
+.feature-icon {
+  background-image: url(../img/Florence_point-icon.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: $V_FONT-FAMILY_GOTHIC2;
+  width: 90px;
+  height: 90px;
+  color: $V_COLOR_BROWN;
+}
+.feature-icon__point {
+  font-size: $V_FONT_SIZE_LG;
+}
+.feature-icon__number {
+  font-size: $V_FONT_SIZE_2XL;
+}
