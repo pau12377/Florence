@@ -55,4 +55,10 @@
     width: 230px;
     height: 230px;
   }
+  .feature__title {
+    font-size: $V_FONT_SIZE_NORMAL;
+  }
+  .feature__text {
+    font-size: $V_FONT_SIZE_SM;
+  }
 }
