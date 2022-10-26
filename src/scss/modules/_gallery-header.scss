@@ -1,6 +1,15 @@
-.gallery-header {
-  padding: 70px 0;
+.gallery-header__header {
+  background-image: url(../img/FlorenceA_gallery-header.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 150px;
+  margin-left: auto;
+  border-radius: 0 0 0 50px;
+  position: relative;
 }
 .gallery-header .title {
-  text-align: left;
+  position: absolute;
+  top: 50px;
+  left: -100px;
 }
