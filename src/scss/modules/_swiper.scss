@@ -131,3 +131,40 @@
   background: $V_COLOR_PINK_MAIN;
   display: none;
 }
+
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .florenceA .swiper-slide img {
+    width: 80%;
+  }
+  .florenceA .swiper-catchphrase {
+    color: $V_COLOR_WHITE0;
+    background: $V_COLOR_BROWN;
+  }
+  .florenceA .swiper-catchphrase:nth-of-type(1) {
+    bottom: 145px;
+  }
+  .florenceA .swiper-catchphrase:nth-of-type(2) {
+    bottom: 105px;
+  }
+  .florenceA .swiper-catchphrase:nth-of-type(3) {
+    bottom: 65px;
+  }
+  .florenceA .swiper-catchphrase:nth-of-type(4) {
+    bottom: 25px;
+    letter-spacing: 4px;
+  }
+  .florenceA .swiper-pagination {
+    top: unset;
+    bottom: 10px;
+    left: 0;
+    right: unset;
+  }
+  .florenceA .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    border: 1px solid;
+    margin: 0 5px !important;
+  }
+}
