@@ -19,3 +19,14 @@
 .feature-icon__number {
   font-size: $V_FONT_SIZE_2XL;
 }
+
+// FlorenceA moble//
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .feature-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .feature-icon__number {
+    font-size: $V_FONT_SIZE_XL;
+  }
+}
