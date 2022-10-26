@@ -21,3 +21,14 @@
 .contact__lead p:nth-of-type(3) {
   margin-top: 10px;
 }
+//mobile
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .contact__lead {
+    width: 100%;
+    margin-top: 30px;
+    font-size: $V_FONT_SIZE_SM;
+  }
+  .contact__wrap {
+    padding: 30px;
+  }
+}
