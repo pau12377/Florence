@@ -3,3 +3,20 @@
   background: lighten($V_COLOR_GRAY0, 22%);
   padding: 70px 0;
 }
+.gallery__wrap {
+  display: flex;
+}
+.gallery-image {
+  width: 100%;
+}
+.gallery-image__box--upper {
+  display: flex;
+  justify-content: flex-start;
+}
+.gallery-image__box--below {
+  display: flex;
+  justify-content: flex-end;
+}
+.gallery-image__interior {
+  margin: 0 0 20px 25px;
+}
