@@ -43,6 +43,7 @@ a[href^="tel:"] {
   }
   .tel__title {
     font-size: $V_FONT_SIZE_LG;
+    margin-bottom: 20px;
   }
   .tel__title::before {
     display: none;
