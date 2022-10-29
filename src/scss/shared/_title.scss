@@ -1,6 +1,7 @@
+// Florence //
 .title {
   font-family: $V_FONT-FAMILY_SERIF0;
-  letter-spacing: 3px;
+  letter-spacing: 0.2rem;
   font-weight: $V_FONT-WEIGHT_BOLD;
   text-align: center;
 }
@@ -16,6 +17,7 @@
   margin-top: 5px;
 }
 
+// Florence mobile//
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
   .title__main {
     font-size: $V_FONT_SIZE_3XL;
@@ -23,4 +25,9 @@
   .title__sub {
     font-size: $V_FONT_SIZE_XS;
   }
+}
+
+// FlorenceA //
+.florenceA .title__main--head {
+  color: darken($V_COLOR_PINK_MAIN, 10%);
 }
