@@ -1,53 +1,53 @@
-.infomation {
+.information {
   padding: 70px 0;
 }
-.infomation__map {
+.information__map {
   width: 50%;
   height: 300px;
 }
-.infomation__wrap {
+.information__wrap {
   display: flex;
   margin-top: 50px;
   align-items: flex-end;
 }
-.infomation__table {
+.information__table {
   margin-left: 50px;
   line-height: 1.4;
   width: 50%;
 }
-.infomation__row {
+.information__row {
   border-top: 1px solid $V_COLOR_GRAY0;
 }
-.infomation__row:last-of-type {
+.information__row:last-of-type {
   border-bottom: 1px solid $V_COLOR_GRAY0;
 }
-.infomation__header {
+.information__header {
   width: 60px;
   padding: 20px;
   vertical-align: middle;
   background: rgb($V_COLOR_GRAY0, 30%);
 }
-.infomation__data {
+.information__data {
   padding: 20px;
   vertical-align: middle;
 }
-.infomation__blank {
+.information__blank {
   display: none;
 }
 
 // FlorenceA //
-.florenceA .infomation__table {
+.florenceA .information__table {
   width: 100%;
   margin: 50px 0 0 0;
 }
-.florenceA .infomation__room-number {
+.florenceA .information__room-number {
   margin-right: 15px;
   font-weight: $V_FONT-WEIGHT_BOLD;
 }
-.florenceA .infomation__room-number:nth-of-type(2) {
+.florenceA .information__room-number:nth-of-type(2) {
   margin-right: 108px;
 }
-.florenceA .infomation__annotations {
+.florenceA .information__annotations {
   border: 1px solid;
   padding: 15px;
   width: 605px;
@@ -58,7 +58,7 @@
 .florenceA .information__mark {
   margin-right: 3px;
 }
-.florenceA .infomation__map {
+.florenceA .information__map {
   width: 100%;
   margin: 70px 0 30px;
 }
