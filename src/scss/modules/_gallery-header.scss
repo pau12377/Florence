@@ -17,3 +17,19 @@
   line-height: 1.8;
   padding: 70px 0;
 }
+
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .gallery-header .title {
+    position: absolute;
+    top: 50px;
+    left: -20%;
+  }
+  .gallery-header__header {
+    background-position: right;
+  }
+  .gallery-header__lead {
+    font-size: $V_FONT_SIZE_SM;
+    padding: 40px 0;
+  }
+}
