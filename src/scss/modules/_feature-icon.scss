@@ -1,0 +1,32 @@
+// florenceA //
+.feature-icon {
+  background-image: url(../img/Florence_point-icon.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: $V_FONT-FAMILY_GOTHIC2;
+  width: 90px;
+  height: 90px;
+  color: $V_COLOR_BROWN;
+  position: relative;
+  z-index: 10;
+}
+.feature-icon__point {
+  font-size: $V_FONT_SIZE_LG;
+}
+.feature-icon__number {
+  font-size: $V_FONT_SIZE_2XL;
+}
+
+// FlorenceA moble//
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .feature-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .feature-icon__number {
+    font-size: $V_FONT_SIZE_XL;
+  }
+}

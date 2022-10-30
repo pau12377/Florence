@@ -1,0 +1,40 @@
+// FlorenceA //
+.gallery {
+  background: lighten($V_COLOR_GRAY0, 22%);
+  padding: 70px 0;
+}
+.gallery__wrap {
+  display: flex;
+  padding: 70px 0 40px;
+}
+.gallery__button {
+  color: $V_COLOR_BROWN;
+  background: $V_COLOR_WHITE0;
+  border: 1px solid $V_COLOR_BROWN;
+  padding: 20px;
+  border-radius: 50px;
+  width: 220px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  transition: $V_TRANSITION_300MS;
+}
+.gallery__button:hover {
+  color: $V_COLOR_WHITE0;
+  background: $V_COLOR_BROWN;
+  transition: $V_TRANSITION_300MS;
+}
+
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .gallery__wrap {
+    flex-direction: column;
+    padding: 70px 0 20px;
+  }
+  .gallery img {
+    width: 100%;
+  }
+  .gallery__button {
+    font-size: $V_FONT_SIZE_SM;
+  }
+}
