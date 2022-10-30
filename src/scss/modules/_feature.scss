@@ -45,3 +45,20 @@
   margin-top: 20px;
   line-height: 1.4;
 }
+
+// FlorenceA moble//
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .feature__card {
+    width: 230px;
+  }
+  .feature__image {
+    width: 230px;
+    height: 230px;
+  }
+  .feature__title {
+    font-size: $V_FONT_SIZE_NORMAL;
+  }
+  .feature__text {
+    font-size: $V_FONT_SIZE_SM;
+  }
+}
