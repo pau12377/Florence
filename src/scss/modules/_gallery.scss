@@ -24,3 +24,17 @@
   background: $V_COLOR_BROWN;
   transition: $V_TRANSITION_300MS;
 }
+
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .gallery__wrap {
+    flex-direction: column;
+    padding: 70px 0 20px;
+  }
+  .gallery img {
+    width: 100%;
+  }
+  .gallery__button {
+    font-size: $V_FONT_SIZE_SM;
+  }
+}
