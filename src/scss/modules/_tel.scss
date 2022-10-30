@@ -36,3 +36,28 @@
 a[href^="tel:"] {
   pointer-events: none;
 }
+//mobile
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .tel {
+    padding: 30px 0 0 0;
+  }
+  .tel__title {
+    font-size: $V_FONT_SIZE_LG;
+    margin-bottom: 20px;
+  }
+  .tel__title::before {
+    display: none;
+  }
+  .tel__title::after {
+    display: none;
+  }
+  .tel__number {
+    font-size: $V_FONT_SIZE_2XL;
+  }
+  .tel .material-icons {
+    font-size: $V_FONT_SIZE_2XL;
+  }
+  a[href^="tel:"] {
+    pointer-events: unset;
+  }
+}
