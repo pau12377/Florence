@@ -37,26 +37,26 @@
 
 // Florence mobile //
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
-  .infomation__wrap {
+  .information__wrap {
     flex-direction: column;
   }
-  .infomation__map {
+  .information__map {
     width: 100%;
     height: 300px;
   }
-  .infomation__table {
+  .information__table {
     width: 100%;
     margin-left: 0;
     margin-top: 50px;
     font-size: $V_FONT_SIZE_SM;
   }
-  .infomation__header {
+  .information__header {
     padding: 15px;
   }
-  .infomation__data {
+  .information__data {
     padding: 15px;
   }
-  .infomation__blank {
+  .information__blank {
     display: block;
   }
 }
