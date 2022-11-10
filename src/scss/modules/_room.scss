@@ -28,8 +28,14 @@
   width: 300px;
 }
 .room__back {
-  margin-top: 80px;
   background: lighten($V_COLOR_GRAY0, 18%);
+}
+.room__back:nth-of-type(2n + 1) {
+  margin-top: 150px;
+  background: $V_COLOR_WHITE0;
+}
+.room__back:nth-of-type(2n) {
+  margin-top: 100px;
 }
 .room__contents {
   position: relative;
