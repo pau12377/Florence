@@ -48,6 +48,14 @@
   margin-left: 151px;
 }
 
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .room__image img {
+    width: 100px;
+    height: 100px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
   #bath-toilet .inner {
     flex-direction: column;
   }
@@ -60,3 +68,13 @@
   .room__back:nth-of-type(2n) {
     margin-top: 50px;
   }
+  #floor-plan .room__image {
+    margin-right: 0;
+  }
+  #floor-plan .room__image img {
+    width: 100%;
+  }
+  .room__title {
+    margin: 20px 20px 20px 0;
+  }
+}
