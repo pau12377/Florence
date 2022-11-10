@@ -17,3 +17,15 @@ const mySwiper = new Swiper(".swiper", {
     clickable: true,
   },
 });
+
+//固定ヘッダー時アンカーリンクの位置を調整
+$(function () {
+  let headerHight = 130;
+  $('a[href^="#"]').click(function () {
+    let href = $(this).attr("href");
+    let target = $(href == "#" || href == "" ? "html" : href);
+    let position = target.offset().top - headerHight;
+    $("html, body").animate({ scrollTop: position }, 550, "swing");
+    return false;
+  });
+});
