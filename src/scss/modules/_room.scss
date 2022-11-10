@@ -69,10 +69,16 @@
     margin-top: 50px;
   }
   #floor-plan .room__image {
-    margin-right: 0;
+    margin-right: 20px;
+  }
+  #floor-plan .room__image:last-of-type {
+    margin-right: 0px;
   }
   #floor-plan .room__image img {
     width: 100%;
+  }
+  #floor-plan .room {
+    flex-wrap: nowrap;
   }
   .room__title {
     margin: 20px 20px 20px 0;
