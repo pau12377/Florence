@@ -100,25 +100,27 @@
             <li class="gallery__item"><a href="#toilet">トイレ</a></li>
             <li class="gallery__item"><a href="#entrance">玄関</a></li>
           </ul>
-          <div class="gallery-title">
-            <h4 class="gallery-title__main">Floor plan</h4>
-            <h5 class="gallery-title__sub">間取り</h5>
-          </div>
-          <div class="floor-plan" id="lightgallery">
-            <a
-              class="floor-plan__image"
-              href="../src/img/FlorenceA_floor-plan1.jpg"
-            >
-              <h6 class="floor-plan__title">1F</h6>
-              <img src="../src/img/FlorenceA_floor-plan1.jpg" alt="" />
-            </a>
-            <a
-              class="floor-plan__image"
-              href="../src/img/FlorenceA_floor-plan2.jpg"
-            >
-              <h6 class="floor-plan__title">2F</h6>
-              <img src="../src/img/FlorenceA_floor-plan2.jpg" alt="" />
-            </a>
+          <div id="floor-plan">
+            <div class="gallery-title">
+              <h4 class="gallery-title__main">Floor plan</h4>
+              <h5 class="gallery-title__sub">間取り</h5>
+            </div>
+            <div class="room" id="lightgallery">
+              <a
+                class="room__image"
+                href="../src/img/FlorenceA_floor-plan1.jpg"
+              >
+                <h6 class="room__title">1F</h6>
+                <img src="../src/img/FlorenceA_floor-plan1.jpg" alt="" />
+              </a>
+              <a
+                class="room__image"
+                href="../src/img/FlorenceA_floor-plan2.jpg"
+              >
+                <h6 class="room__title">2F</h6>
+                <img src="../src/img/FlorenceA_floor-plan2.jpg" alt="" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -135,11 +137,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/zoom/lg-zoom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/thumbnail/lg-thumbnail.min.js"></script>
-    <script type="text/javascript">
-      lightGallery(document.getElementById("lightgallery"), {
-        plugins: [lgZoom, lgThumbnail],
-        speed: 500,
-      });
-    </script>
+    <script src="../src/js/lightgallery.js"></script>
   </body>
 </html>
