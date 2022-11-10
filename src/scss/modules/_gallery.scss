@@ -24,18 +24,18 @@
   background: $V_COLOR_BROWN;
   transition: $V_TRANSITION_300MS;
 }
-.gellery__tab {
+.gallery__tab {
   list-style: none;
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
 }
-.gellery__item {
+.gallery__item {
   font-weight: $V_FONT_WEIGHT_BOLD;
   margin: 0 20px;
   position: relative;
 }
-.gellery__item a::after {
+.gallery__item a::after {
   content: "";
   position: absolute;
   border-bottom: 1px solid;
@@ -45,12 +45,15 @@
   transform: translate(-50%, -50%);
   transition: $V_TRANSITION_300MS;
 }
-.gellery__item a:hover::after {
+.gallery__item a:hover::after {
   width: 30px;
   transition: $V_TRANSITION_300MS;
 }
-.gellery__item a {
+.gallery__item a {
   color: $V_COLOR_BLACK;
+}
+.gallery__title {
+  font-size: $V_FONT_SIZE_6XL;
 }
 
 // FlorenceA mobile //
