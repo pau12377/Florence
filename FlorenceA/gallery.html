@@ -11,8 +11,13 @@
     <title>Florence</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lg-thumbnail.min.css"
+    />
+
     <link rel="stylesheet" href="../src/css/style.css" />
   </head>
 
@@ -99,19 +104,21 @@
             <h4 class="gallery-title__main">Floor plan</h4>
             <h5 class="gallery-title__sub">間取り</h5>
           </div>
-          <div class="floor-plan">
-            <div class="floor-plan__card">
+          <div class="floor-plan" id="lightgallery">
+            <a
+              class="floor-plan__image"
+              href="../src/img/FlorenceA_floor-plan1.jpg"
+            >
               <h6 class="floor-plan__title">1F</h6>
-              <div class="floor-plan__image">
-                <img src="../src/img/FlorenceA_floor-plan1.jpg" alt="" />
-              </div>
-            </div>
-            <div class="floor-plan__card">
+              <img src="../src/img/FlorenceA_floor-plan1.jpg" alt="" />
+            </a>
+            <a
+              class="floor-plan__image"
+              href="../src/img/FlorenceA_floor-plan2.jpg"
+            >
               <h6 class="floor-plan__title">2F</h6>
-              <div class="floor-plan__image">
-                <img src="../src/img/FlorenceA_floor-plan2.jpg" alt="" />
-              </div>
-            </div>
+              <img src="../src/img/FlorenceA_floor-plan2.jpg" alt="" />
+            </a>
           </div>
         </div>
       </div>
@@ -125,5 +132,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="../src/js/style.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/zoom/lg-zoom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"), {
+        plugins: [lgZoom, lgThumbnail],
+        speed: 500,
+      });
+    </script>
   </body>
 </html>

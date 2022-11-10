@@ -1,9 +1,12 @@
 .floor-plan {
   display: flex;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .floor-plan__card {
   margin: 20px 60px 0 0;
+}
+.floor-plan__image {
+  margin-right: 50px;
 }
 .floor-plan__image img {
   width: 300px;
@@ -11,4 +14,5 @@
 .floor-plan__title {
   margin: 0 10px 10px;
   font-size: $V_FONT_SIZE_XL;
+  color: $V_COLOR_BLACK;
 }
