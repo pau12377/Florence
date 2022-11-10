@@ -24,6 +24,28 @@
   background: $V_COLOR_BROWN;
   transition: $V_TRANSITION_300MS;
 }
+.gellery__tab {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.gellery__item {
+  font-weight: $V_FONT_WEIGHT_BOLD;
+  margin: 0 20px;
+  position: relative;
+}
+.gellery__item a::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid;
+  top: 35px;
+  left: 50%;
+  width: 0px;
+  transform: translate(-50%, -50%);
+}
+.gellery__item a {
+  color: $V_COLOR_BLACK;
+}
 
 // FlorenceA mobile //
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
