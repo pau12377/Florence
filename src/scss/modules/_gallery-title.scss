@@ -11,3 +11,12 @@
   font-size: $V_FONT_SIZE_NORMAL;
   margin-left: 15px;
 }
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .gallery-title__main {
+    font-size: $V_FONT_SIZE_6XL;
+  }
+  .gallery-title__sub {
+    font-size: $V_FONT_SIZE_SM;
+  }
+}

@@ -81,7 +81,8 @@
     flex-wrap: nowrap;
   }
   .room__title {
-    margin: 20px 20px 20px 0;
+    margin: 0px 20px 20px 0;
+    font-size: $V_FONT_SIZE_NORMAL;
   }
   .room__back:nth-of-type(2n + 1) {
     margin-top: 80px;
@@ -89,5 +90,8 @@
   .room__image {
     margin-right: 15px;
     margin-bottom: 15px;
+  }
+  .room__contents {
+    top: -22px;
   }
 }
