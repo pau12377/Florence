@@ -27,3 +27,11 @@
   height: unset;
   width: 300px;
 }
+.room__back {
+  margin-top: 80px;
+  background: lighten($V_COLOR_GRAY0, 18%);
+}
+.room__contents {
+  position: relative;
+  top: -28px;
+}
