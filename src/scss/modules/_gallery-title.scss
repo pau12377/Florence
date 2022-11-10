@@ -1,0 +1,13 @@
+.gallery-title {
+  display: flex;
+  align-items: baseline;
+}
+.gallery-title__main {
+  font-size: $V_FONT_SIZE_7XL;
+  font-family: $V_FONT-FAMILY_SERIF0;
+  color: $V_COLOR_PINK_MAIN;
+}
+.gallery-title__sub {
+  font-size: $V_FONT_SIZE_NORMAL;
+  margin-left: 15px;
+}

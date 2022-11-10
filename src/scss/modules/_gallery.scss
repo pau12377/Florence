@@ -52,10 +52,6 @@
 .gallery__item a {
   color: $V_COLOR_BLACK;
 }
-.gallery__title {
-  font-size: $V_FONT_SIZE_6XL;
-}
-
 // FlorenceA mobile //
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
   .gallery__wrap {
