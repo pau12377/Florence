@@ -63,7 +63,7 @@
     margin-left: 0;
   }
   .room {
-    margin: 0 20px;
+    margin: 20px 0 0 0;
   }
   .room__back:nth-of-type(2n) {
     margin-top: 50px;
@@ -76,5 +76,12 @@
   }
   .room__title {
     margin: 20px 20px 20px 0;
+  }
+  .room__back:nth-of-type(2n + 1) {
+    margin-top: 80px;
+  }
+  .room__image {
+    margin-right: 15px;
+    margin-bottom: 15px;
   }
 }
