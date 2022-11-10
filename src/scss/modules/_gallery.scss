@@ -28,6 +28,7 @@
   list-style: none;
   display: flex;
   justify-content: center;
+  margin-bottom: 70px;
 }
 .gellery__item {
   font-weight: $V_FONT_WEIGHT_BOLD;
@@ -42,6 +43,11 @@
   left: 50%;
   width: 0px;
   transform: translate(-50%, -50%);
+  transition: $V_TRANSITION_300MS;
+}
+.gellery__item a:hover::after {
+  width: 30px;
+  transition: $V_TRANSITION_300MS;
 }
 .gellery__item a {
   color: $V_COLOR_BLACK;
