@@ -60,6 +60,7 @@
     display: block;
   }
 }
+
 // FlorenceA //
 .florenceA .information__table {
   width: 100%;
@@ -91,6 +92,44 @@
 // FlorenceA mobile //
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
   .florenceA .information__annotations {
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-size: $V_FONT_SIZE_XS;
+  }
+}
+
+// FlorenceB //
+.florenceB .information__table {
+  width: 100%;
+  margin: 50px 0 0 0;
+}
+.florenceB .information__room-number {
+  margin-right: 15px;
+  font-weight: $V_FONT-WEIGHT_BOLD;
+}
+.florenceB .information__room-number:nth-of-type(2) {
+  margin-right: 108px;
+}
+.florenceB .information__annotations {
+  border: 1px solid;
+  padding: 15px;
+  width: 605px;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: $V_FONT_SIZE_SM;
+}
+.florenceB .information__mark {
+  margin-right: 3px;
+}
+.florenceB .information__map {
+  width: 100%;
+  margin: 70px 0 30px;
+}
+
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .florenceB .information__annotations {
     width: 100%;
     box-sizing: border-box;
     line-height: 1.4;

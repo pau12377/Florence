@@ -50,3 +50,13 @@
   background: darken($V_COLOR_PINK_MAIN, 15%);
   transition: $V_TRANSITION_300MS;
 }
+
+// FlorenceB //
+.florenceB .navigation__item:last-of-type {
+  background: $V_COLOR_BLUE_MAIN;
+  transition: $V_TRANSITION_300MS;
+}
+.florenceB .navigation__item:last-of-type:hover {
+  background: darken($V_COLOR_BLUE_MAIN, 15%);
+  transition: $V_TRANSITION_300MS;
+}
