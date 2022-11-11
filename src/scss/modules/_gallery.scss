@@ -1,6 +1,6 @@
 // FlorenceA //
 .gallery {
-  background: lighten($V_COLOR_GRAY0, 22%);
+  background: $V_COLOR_WHITE0;
   padding: 70px 0;
 }
 .gallery__wrap {
@@ -24,7 +24,34 @@
   background: $V_COLOR_BROWN;
   transition: $V_TRANSITION_300MS;
 }
-
+.gallery__tab {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.gallery__item {
+  font-weight: $V_FONT_WEIGHT_BOLD;
+  margin: 0 20px;
+  position: relative;
+}
+.gallery__item a::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid;
+  top: 35px;
+  left: 50%;
+  width: 0px;
+  transform: translate(-50%, -50%);
+  transition: $V_TRANSITION_300MS;
+}
+.gallery__item a:hover::after {
+  width: 30px;
+  transition: $V_TRANSITION_300MS;
+}
+.gallery__item a {
+  color: $V_COLOR_BLACK;
+}
 // FlorenceA mobile //
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
   .gallery__wrap {

@@ -1,0 +1,49 @@
+.room {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+.room__card {
+  margin: 20px 60px 0 0;
+}
+.room__title {
+  margin: 0 10px 10px;
+  font-size: $V_FONT_SIZE_XL;
+  color: $V_COLOR_BLACK;
+}
+.room__image {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.room__image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+#floor-plan .room__image {
+  margin-right: 50px;
+}
+#floor-plan .room__image img {
+  height: unset;
+  width: 300px;
+}
+.room__back {
+  background: lighten($V_COLOR_GRAY0, 20%);
+}
+.room__back:nth-of-type(2n + 1) {
+  margin-top: 150px;
+  background: $V_COLOR_WHITE0;
+}
+.room__back:nth-of-type(2n) {
+  margin-top: 100px;
+}
+.room__contents {
+  position: relative;
+  top: -28px;
+}
+#bath-toilet .inner {
+  display: flex;
+}
+#bath-toilet .room__contents:nth-of-type(2) {
+  margin-left: 151px;
+}
