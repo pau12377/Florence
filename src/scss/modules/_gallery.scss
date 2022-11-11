@@ -64,4 +64,18 @@
   .gallery__button {
     font-size: $V_FONT_SIZE_SM;
   }
+  .gallery__tab {
+    flex-wrap: wrap;
+  }
+  .gallery__item {
+    position: unset;
+    font-size: $V_FONT_SIZE_SM;
+    margin: 0 12px 10px 0;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 20px;
+  }
+  .gallery__item a:hover:after {
+    width: 0px;
+  }
 }

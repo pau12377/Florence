@@ -47,3 +47,51 @@
 #bath-toilet .room__contents:nth-of-type(2) {
   margin-left: 151px;
 }
+
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .room__image img {
+    width: 100px;
+    height: 100px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  #bath-toilet .inner {
+    flex-direction: column;
+  }
+  #bath-toilet .room__contents:nth-of-type(2) {
+    margin-left: 0;
+  }
+  .room {
+    margin: 20px 0 0 0;
+  }
+  .room__back:nth-of-type(2n) {
+    margin-top: 50px;
+  }
+  #floor-plan .room__image {
+    margin-right: 20px;
+  }
+  #floor-plan .room__image:last-of-type {
+    margin-right: 0px;
+  }
+  #floor-plan .room__image img {
+    width: 100%;
+  }
+  #floor-plan .room {
+    flex-wrap: nowrap;
+  }
+  .room__title {
+    margin: 0px 20px 20px 0;
+    font-size: $V_FONT_SIZE_NORMAL;
+  }
+  .room__back:nth-of-type(2n + 1) {
+    margin-top: 80px;
+  }
+  .room__image {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+  .room__contents {
+    top: -22px;
+  }
+}
