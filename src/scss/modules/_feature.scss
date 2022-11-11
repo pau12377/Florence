@@ -14,8 +14,8 @@
 }
 .feature__image {
   background-size: cover;
-  width: 290px;
-  height: 290px;
+  width: 260px;
+  height: 260px;
   border-radius: 100%;
   border: 1px solid;
   margin-top: -80px;
@@ -44,6 +44,7 @@
 .feature__text {
   margin-top: 20px;
   line-height: 1.4;
+  font-size: $V_FONT_SIZE_SM;
 }
 
 // FlorenceA moble//
