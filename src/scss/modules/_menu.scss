@@ -9,8 +9,10 @@
     transition: $V_TRANSITION_300MS;
     opacity: 0;
     z-index: 10;
+    visibility: hidden;
   }
   .open.menu__background {
     opacity: 1;
+    visibility: visible;
   }
 }
