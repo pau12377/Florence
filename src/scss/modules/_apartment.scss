@@ -17,7 +17,7 @@
   width: 420px;
   padding: 30px;
   border-radius: 7px;
-  box-shadow: 10px 20px 15px $V_COLOR_GRAY1;
+  box-shadow: 10px 20px 15px rgba($V_COLOR_BLACK, 0.1);
   transition: $V_TRANSITION_300MS;
 }
 .apartment__card:hover {
@@ -30,7 +30,7 @@
   width: 420px;
   padding: 30px;
   border-radius: 7px;
-  box-shadow: 10px 20px 15px $V_COLOR_GRAY1;
+  box-shadow: 10px 20px 15px rgba($V_COLOR_BLACK, 0.1);
   transition: $V_TRANSITION_300MS;
 }
 .apartment__card--florenceA:hover {
@@ -43,7 +43,7 @@
   width: 420px;
   padding: 30px;
   border-radius: 7px;
-  box-shadow: 10px 20px 15px $V_COLOR_GRAY1;
+  box-shadow: 10px 20px 15px rgba($V_COLOR_BLACK, 0.1);
   transition: $V_TRANSITION_300MS;
 }
 .apartment__card--florenceB:hover {
