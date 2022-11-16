@@ -11,6 +11,11 @@
   font-size: $V_FONT_SIZE_NORMAL;
   margin-left: 15px;
 }
+
+// FlorenceB //
+.florenceB .gallery-title__main {
+  color: $V_COLOR_BLUE_MAIN;
+}
 // FlorenceA mobile //
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
   .gallery-title__main {

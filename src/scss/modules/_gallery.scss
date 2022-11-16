@@ -1,11 +1,11 @@
 // FlorenceA //
 .gallery {
   background: $V_COLOR_WHITE0;
-  padding: 70px 0;
+  padding-top: 70px;
 }
 .gallery__wrap {
   display: flex;
-  padding: 70px 0 40px;
+  padding: 70px 0 40px 0;
 }
 .gallery__button {
   color: $V_COLOR_BROWN;
@@ -54,9 +54,12 @@
 }
 // FlorenceA mobile //
 @media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .gallery {
+    padding-top: 30px;
+  }
   .gallery__wrap {
     flex-direction: column;
-    padding: 70px 0 20px;
+    padding: 70px 0 20px 0;
   }
   .gallery img {
     width: 100%;
