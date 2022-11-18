@@ -1,2 +1,10 @@
 /*
 Theme Name: Florence
+*/
+
+header {
+  color: red;
+}
+footer {
+  color: blue;
+}

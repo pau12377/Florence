@@ -2,7 +2,8 @@
 <html lang="ja">
   <head>
     <title>Florence</title>
-    <link rel="stylesheet" href="style.css" />
+    <?php wp_head(); ?>
+
   </head>
   <body>
     <header>
