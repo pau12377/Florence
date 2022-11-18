@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <title>Florence</title>
-    <?php wp_head(); ?>
-
-  </head>
-  <body>
-    <header>
-    </header> 
+<?php get_header(); ?>
+  
     <div>Hello World</div>
-    <footer>
-    </footer>
+    <footer>footer</footer>
   </body>
 </html>
