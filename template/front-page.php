@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-  
-    <div>Hello World</div>
-    <footer>footer</footer>
-  </body>
-</html>
+
+<div>Hello World</div>
+
+<?php get_footer();
