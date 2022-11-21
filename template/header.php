@@ -21,12 +21,12 @@
       <a href="#">
         <img
           class="header__pc-logo"
-          src="src/img/Florence_logo.svg"
+          src="<?php echo get_stylesheet_directory_uri(); ?>/img/Florence_logo.svg"
           alt="Florence"
         />
         <img
           class="header__mobile-logo"
-          src="src/img/Florence_logo_mobile.svg"
+          src="<?php echo get_stylesheet_directory_uri(); ?>/img/Florence_logo_mobile.svg"
           alt="Florence"
         />
       </a>

@@ -3,13 +3,13 @@
   <div class="swiper inner">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="src/img/florenceA_main.jpg" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/florenceA_main.jpg" alt="" />
       </div>
       <div class="swiper-slide">
-        <img src="src/img/florenceB_main.jpg" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/florenceB_main.jpg" alt="" />
       </div>
       <div class="swiper-slide">
-        <img src="src/img/florenceA_main2.jpg" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/florenceA_main2.jpg" alt="" />
       </div>
       <div class="swiper-catchphrase__wrapper">
         <p class="swiper-catchphrase">
@@ -89,7 +89,7 @@
               1Kの間取りを有効活用し、カウンターキッチンにしたことで、リビングも広々と使える住まいです。
             </p>
             <div class="apartment__img">
-              <img src="src/img/Florence_apartmentA.jpg" alt="" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Florence_apartmentA.jpg" alt="" />
             </div>
           </div>
         </a>
@@ -105,7 +105,7 @@
               高い断熱性があり、快適に暮らせる住まいです。
             </p>
             <div class="apartment__img">
-              <img src="src/img/Florence_apartmentB.jpg" alt="" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Florence_apartmentB.jpg" alt="" />
             </div>
           </div>
         </a>
