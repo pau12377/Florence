@@ -29,7 +29,7 @@
 <body <?php body_class(); ?> >
   <header class="header">
     <div class="header__logo">
-      <a href="#">
+      <a href="<?php echo esc_url(home_url()); ?>">
         <img
           class="header__pc-logo"
           src="<?php echo get_stylesheet_directory_uri(); ?>/img/Florence_logo.svg"
