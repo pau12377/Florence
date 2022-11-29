@@ -44,14 +44,44 @@
     </div>
     <nav class="navigation">
       <ul class="navigation__card">
-        <li class="navigation__item">
+        <li class="navigation__item top">
           <a class="navigation__link" href="#about">About</a>
         </li>
-        <li class="navigation__item">
+        <li class="navigation__item page-id-11">
+          <a class="navigation__link" href="http://florence.local/FlorenceA#about">About</a>
+        </li>
+        <li class="navigation__item page-id-54">
+          <a class="navigation__link" href="http://florence.local/FlorenceB#about">About</a>
+        </li>
+        <li class="navigation__item home">
           <a class="navigation__link" href="#apartment">Apartment</a>
         </li>
-        <li class="navigation__item">
+        <li class="navigation__item nav_feauture">
+          <a class="navigation__link" href="#feature">Feature</a>
+        </li>
+        <li class="navigation__item page-id-11">
+          <a class="navigation__link" href="http://florence.local/FlorenceA#feature">Feature</a>
+        </li>
+        <li class="navigation__item page-id-54">
+          <a class="navigation__link" href="http://florence.local/FlorenceB#feature">Feature</a>
+        </li>
+        <li class="navigation__item nav_gallery">
+          <a class="navigation__link" href="#gallery">Gallery</a>
+        </li>
+        <li class="navigation__item page-id-11">
+          <a class="navigation__link" href="http://florence.local/FlorenceA#gallery">Gallery</a>
+        </li>
+        <li class="navigation__item page-id-54">
+          <a class="navigation__link" href="http://florence.local/FlorenceB#gallery">Gallery</a>
+        </li>
+        <li class="navigation__item top">
           <a class="navigation__link" href="#information">Information</a>
+        </li>
+        <li class="navigation__item page-id-11">
+          <a class="navigation__link" href="http://florence.local/FlorenceA#information">Information</a>
+        </li>
+        <li class="navigation__item page-id-54">
+          <a class="navigation__link" href="http://florence.local/FlorenceB#information">Information</a>
         </li>
         <li class="navigation__item">
           <a class="navigation__link" href="#contact">Contact</a>
