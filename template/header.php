@@ -1,8 +1,57 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Florence</title>
     <?php wp_head(); ?>
   </head>
-  <body>
-    <header>header</header> 
+<body>
+  <header class="header">
+    <div class="header__logo">
+      <a href="#">
+        <img
+          class="header__pc-logo"
+          src="<?php echo get_stylesheet_directory_uri(); ?>/img/Florence_logo.svg"
+          alt="Florence"
+        />
+        <img
+          class="header__mobile-logo"
+          src="<?php echo get_stylesheet_directory_uri(); ?>/img/Florence_logo_mobile.svg"
+          alt="Florence"
+        />
+      </a>
+    </div>
+    <nav class="navigation">
+      <ul class="navigation__card">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#about">About</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#apartment">Apartment</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#information">Information</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <button class="navigation__button">
+        <span class="navigation__button-line"></span>
+        <span class="navigation__button-line"></span>
+        <span class="navigation__button-line"></span>
+      </button>
+    </nav>
+  </header>
+  <div class="menu__background"></div>
+
