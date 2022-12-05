@@ -5,6 +5,10 @@
       href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap"
       rel="stylesheet"
     />
+	  <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -53,5 +57,9 @@
       </button>
     </nav>
   </header>
+<<<<<<< HEAD
   <div class="menu__background"></div>
 
+=======
+  <div class="menu__background"></div>
+>>>>>>> 4077ef6 (feat:ヘッダーを移植した)
