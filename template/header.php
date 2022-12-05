@@ -1,9 +1,20 @@
-<!DOCTYPE html>
 <html lang="ja">
   <head>
     <link
       href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap"
       rel="stylesheet"
+    />
+	  <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap"
+      rel="stylesheet"
+    />
+	  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css"
+    />
+	  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lg-thumbnail.min.css"
     />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -15,7 +26,7 @@
     <title>Florence</title>
     <?php wp_head(); ?>
   </head>
-<body>
+<body <?php body_class(); ?> >
   <header class="header">
     <div class="header__logo">
       <a href="#">
