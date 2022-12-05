@@ -12,3 +12,13 @@ add_action('wp_enqueue_scripts', 'enqueue_scripts');
 
 //管理バーの削除
 add_filter('show_admin_bar', '__return_false');
+
+//ページごとにbodyにクラス追加
+add_filter('body_class', 'custom_body_class');
+function custom_body_class($classes) {
+  if (is_category('florencea')) {
+    $classes[] = 'florenceA';
+  } else if (is_category('florenceb')){
+    $classes[] = 'florenceB';	}
+  return $classes;
+}
