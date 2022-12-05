@@ -2,13 +2,13 @@
   <div class="swiper inner">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="http://florence.local/wp-content/themes/florence/img/florenceA_main.jpg" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/florenceA_main.jpg" alt="" />
       </div>
       <div class="swiper-slide">
-        <img src="http://florence.local/wp-content/themes/florence/img/florenceA_main2.jpg" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/florenceA_main2.jpg" alt="" />
       </div>
       <div class="swiper-slide">
-        <img src="http://florence.local/wp-content/themes/florence/img/florenceA_main3.jpg" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/florenceA_main3.jpg" alt="" />
       </div>
       <div class="swiper-catchphrase__wrapper">
         <p class="swiper-catchphrase">
@@ -140,7 +140,7 @@
       <div class="gallery__wrap">
         <div class="gallery__image">
           <img
-            src="http://florence.local/wp-content/themes/florence/img/FlorenceA_Top_Gallary_Aisle.jpg"
+            src="<?php echo get_stylesheet_directory_uri(); ?>/img/FlorenceA_Top_Gallary_Aisle.jpg"
             alt="FlorenceA_通路"
           />
         </div>
@@ -148,13 +148,13 @@
           <div class="gallery-image__box--upper">
             <div class="gallery-image__interior">
               <img
-                src="http://florence.local/wp-content/themes/florence/img/FlorenceA_Top_Gallary_Living.jpg"
+                src="<?php echo get_stylesheet_directory_uri(); ?>/img/FlorenceA_Top_Gallary_Living.jpg"
                 alt="FlorenceA_リビング"
               />
             </div>
             <div class="gallery-image__interior">
               <img
-                src="http://florence.local/wp-content/themes/florence/img/FlorenceA_Top_Gallary_Armoire.jpg"
+                src="<?php echo get_stylesheet_directory_uri(); ?>/img/FlorenceA_Top_Gallary_Armoire.jpg"
                 alt="FlorenceA_収納"
               />
             </div>
@@ -162,13 +162,13 @@
           <div class="gallery-image__box--below">
             <div class="gallery-image__interior">
               <img
-                src="http://florence.local/wp-content/themes/florence/img/FlorenceA_Top_Gallary_Fan.jpg"
+                src="<?php echo get_stylesheet_directory_uri(); ?>/img/FlorenceA_Top_Gallary_Fan.jpg"
                 alt="FlorenceA_換気扇"
               />
             </div>
             <div class="gallery-image__interior">
               <img
-                src="http://florence.local/wp-content/themes/florence/img/FlorenceA_Top_Gallary_Kitchen.jpg"
+                src="<?php echo get_stylesheet_directory_uri(); ?>/img/FlorenceA_Top_Gallary_Kitchen.jpg"
                 alt="FlorenceA_キッチン"
               />
             </div>
