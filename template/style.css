@@ -435,11 +435,7 @@ body {
   }
 }
 .contact {
-<<<<<<< HEAD
-  background-image: url(img/Florence_contact.jpg);
-=======
   background-image: url("img/Florence_contact.jpg");
->>>>>>> 4532da7 (fix:background-imageのタグを変更した)
   background-size: cover;
   background-position: center;
   padding: 85px 0;
@@ -1457,21 +1453,6 @@ a[href^="tel:"] {
   margin-top: -80px;
 }
 .feature__image.exterior {
-<<<<<<< HEAD
-  background-image: url(../img/FlorenceA_Faeture_Exterior.jpg);
-}
-.feature__image.security {
-  background-image: url(../img/FlorenceA_Faeture_Security.jpg);
-}
-.feature__image.kitcken {
-  background-image: url(../img/FlorenceA_Faeture_Kitcken.jpg);
-}
-.feature__image.wash {
-  background-image: url(../img/FlorenceA_Faeture_Wash.jpg);
-}
-.feature__image.storage {
-  background-image: url(../img/FlorenceA_Faeture_Storage.jpg);
-=======
   background-image: url("img/FlorenceA_Faeture_Exterior.jpg");
 }
 .feature__image.security {
@@ -1485,7 +1466,6 @@ a[href^="tel:"] {
 }
 .feature__image.storage {
   background-image: url("img/FlorenceA_Faeture_Storage.jpg");
->>>>>>> 4532da7 (fix:background-imageのタグを変更した)
 }
 .feature__title {
   font-size: 18px;
@@ -1514,24 +1494,6 @@ a[href^="tel:"] {
   }
 }
 .feature__image.exterior {
-<<<<<<< HEAD
-  background-image: url(../img/FlorenceB_Faeture_Exterior.jpg);
-}
-.feature__image.security {
-  background-image: url(../img/FlorenceB_Faeture_Security.jpg);
-}
-.feature__image.kitcken {
-  background-image: url(../img/FlorenceB_Faeture_glass.jpg);
-}
-.feature__image.wash {
-  background-image: url(../img/FlorenceB_Faeture_Storage.jpg);
-}
-.feature__image.storage {
-  background-image: url(../img/FlorenceB_Faeture_Bath.jpg);
-}
-.feature-icon {
-  background-image: url(../img/Florence_point-icon.png);
-=======
   background-image: url("img/FlorenceB_Faeture_Exterior.jpg");
 }
 .feature__image.security {
@@ -1548,7 +1510,6 @@ a[href^="tel:"] {
 }
 .feature-icon {
   background-image: url("img/Florence_point-icon.png");
->>>>>>> 4532da7 (fix:background-imageのタグを変更した)
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
