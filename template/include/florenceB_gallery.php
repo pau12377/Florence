@@ -37,13 +37,13 @@
           <h5 class="gallery-title__sub">間取り</h5>
         </div>
         <div class="room" id="lightgallery__floor-plan">
-          <a class="room__image" href="../src/img/B_floor-plan1.jpg">
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_floor-plan1.jpg">
             <h6 class="room__title">1F</h6>
-            <img src="../src/img/B_floor-plan1.jpg" alt="" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_floor-plan1.jpg" alt="" />
           </a>
-          <a class="room__image" href="../src/img/B_floor-plan2.jpg">
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_floor-plan2.jpg">
             <h6 class="room__title">2F</h6>
-            <img src="../src/img/B_floor-plan2.jpg" alt="" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_floor-plan2.jpg" alt="" />
           </a>
         </div>
       </div>
@@ -55,23 +55,23 @@
           <h5 class="gallery-title__sub">リビング</h5>
         </div>
         <div class="room" id="lightgallery__living">
-          <a class="room__image" href="../src/img/B_Living1.jpg">
-            <img src="../src/img/B_Living1.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living1.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living1.jpg" alt="" />
           </a>
-          <a class="room__image" href="../src/img/B_Living2.jpg">
-            <img src="../src/img/B_Living2.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living2.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living2.jpg" alt="" />
           </a>
-          <a class="room__image" href="../src/img/B_Living3.jpg">
-            <img src="../src/img/B_Living3.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living3.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living3.jpg" alt="" />
           </a>
-          <a class="room__image" href="../src/img/B_Living4.jpg">
-            <img src="../src/img/B_Living4.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living4.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living4.jpg" alt="" />
           </a>
-          <a class="room__image" href="../src/img/B_Living5.jpg">
-            <img src="../src/img/B_Living5.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living5.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living5.jpg" alt="" />
           </a>
-          <a class="room__image" href="../src/img/B_Living6.jpg">
-            <img src="../src/img/B_Living6.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living6.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Living6.jpg" alt="" />
           </a>
         </div>
       </div>
@@ -83,17 +83,17 @@
           <h5 class="gallery-title__sub">収納</h5>
         </div>
         <div class="room" id="lightgallery__storage">
-          <a class="room__image" href="../src/img/B_Storage1.jpg">
-            <img src="../src/img/B_Storage1.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Storage1.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Storage1.jpg" alt="" />
           </a>
-          <a class="room__image" href="../src/img/B_Storage2.jpg">
-            <img src="../src/img/B_Storage2.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Storage2.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Storage2.jpg" alt="" />
           </a>
-          <a class="room__image" href="../src/img/B_Storage2.jpg">
-            <img src="../src/img/B_Storage3.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Storage2.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Storage3.jpg" alt="" />
           </a>
-          <a class="room__image" href="../src/img/B_Storage2.jpg">
-            <img src="../src/img/B_Storage4.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Storage2.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Storage4.jpg" alt="" />
           </a>
         </div>
       </div>
@@ -105,11 +105,11 @@
           <h5 class="gallery-title__sub">キッチン</h5>
         </div>
         <div class="room" id="lightgallery__kitchen">
-          <a class="room__image" href="../src/img/A_Kitchen1.jpg">
-            <img src="../src/img/B_Kitchen1.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/A_Kitchen1.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Kitchen1.jpg" alt="" />
           </a>
-          <a class="room__image" href="../src/img/A_Kitchen2.jpg">
-            <img src="../src/img/B_Kitchen2.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/A_Kitchen2.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Kitchen2.jpg" alt="" />
           </a>
         </div>
       </div>
@@ -121,8 +121,8 @@
           <h5 class="gallery-title__sub">洗面所</h5>
         </div>
         <div class="room" id="lightgallery__washroom">
-          <a class="room__image" href="../src/img/B_Wash1.jpg">
-            <img src="../src/img/B_Wash1.jpg" alt="" />
+          <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Wash1.jpg">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Wash1.jpg" alt="" />
           </a>
         </div>
       </div>
@@ -135,11 +135,11 @@
             <h5 class="gallery-title__sub">浴室</h5>
           </div>
           <div class="room" id="lightgallery__bathroom">
-            <a class="room__image" href="../src/img/B_Bath1.jpg">
-              <img src="../src/img/B_Bath1.jpg" alt="" />
+            <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Bath1.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Bath1.jpg" alt="" />
             </a>
-            <a class="room__image" href="../src/img/B_Bath2.jpg">
-              <img src="../src/img/B_Bath2.jpg" alt="" />
+            <a class="room__image" href="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Bath2.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/B_Bath2.jpg" alt="" />
             </a>
           </div>
         </div>
