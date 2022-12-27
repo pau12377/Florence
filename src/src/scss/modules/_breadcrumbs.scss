@@ -15,3 +15,18 @@
 .breadcrumbs__item a {
   color: $V_COLOR_BLACK;
 }
+.breadcrumbs__item::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  border-top: solid 1px;
+  border-right: solid 1px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 4px;
+  margin-left: 9px;
+}
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
