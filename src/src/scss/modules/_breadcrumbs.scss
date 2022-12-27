@@ -1,0 +1,17 @@
+// gallery //
+.breadcrumbs ul {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+}
+.breadcrumbs__item {
+  font-size: $V_FONT_SIZE_SM;
+  margin: 0 15px;
+}
+.breadcrumbs__item:first-child {
+  margin-left: 0;
+  margin-right: 15px;
+}
+.breadcrumbs__item a {
+  color: $V_COLOR_BLACK;
+}
