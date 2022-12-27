@@ -36,15 +36,27 @@
     </div>
     <nav class="navigation">
       <ul class="navigation__card">
-        <li class="navigation__item">
-          <a class="navigation__link" href="#about">About</a>
-        </li>
-        <li class="navigation__item">
-          <a class="navigation__link" href="#apartment">Apartment</a>
-        </li>
-        <li class="navigation__item">
-          <a class="navigation__link" href="#information">Information</a>
-        </li>
+        <?php if (!isGallery()) { ?>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#about">About</a>
+          </li>
+          <?php if (isTop()) { ?>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#apartment">Apartment</a>
+            </li>
+          <?php } ?>
+          <?php if (!isTop()) { ?>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#feature">Feature</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#gallery">Gallery</a>
+            </li>
+          <?php } ?>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#information">Information</a>
+          </li>
+        <?php } ?>
         <li class="navigation__item">
           <a class="navigation__link" href="#contact">Contact</a>
         </li>
