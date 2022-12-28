@@ -30,10 +30,27 @@
         <h3 class="news-title__second">新着情報</h3>
       </div>
       <div class="news__card">
+        <?php
+          $arg = array(
+          'posts_per_page' => 3, // 表示する件数
+          'category_name' => get_the_category()[0]->cat_name // 表示したいカテゴリーのスラッグを指定
+          );
+          $posts = get_posts( $arg );
+          if( $posts ):
+        ?>
+        <?php
+          foreach ( $posts as $post ):
+          setup_postdata( $post );
+        ?>
         <div class="news__item">
           <span class="news__data"><?php the_time( 'Y.m.d' ); ?></span>
           <span class="news__content"><?php the_title(); ?></span>
         </div>
+        <?php endforeach; ?>      
+        <?php
+          endif;
+          wp_reset_postdata();
+        ?>
       </div>
     </div>
   </div>
