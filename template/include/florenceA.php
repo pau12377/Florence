@@ -30,8 +30,10 @@
         <h3 class="news-title__second">新着情報</h3>
       </div>
       <div class="news__card">
-        <span class="news__data">2022年10月31日</span>
-        <span class="news__content">サイトをオープンしました。</span>
+        <div class="news__item">
+          <span class="news__data"><?php the_time( 'Y.m.d' ); ?></span>
+          <span class="news__content"><?php the_title(); ?></span>
+        </div>
       </div>
     </div>
   </div>
