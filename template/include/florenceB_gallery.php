@@ -1,12 +1,6 @@
 <main>
   <div class="gallery-header">
-    <div class="gallery-header__header">
-      <div class="title">
-        <h2 class="title__main">
-          <span class="title__main--head">G</span>allery
-        </h2>
-      </div>
-    </div>
+    <?php include(get_template_directory() . '/include/gallery_header.php'); ?>
     <?php include(get_template_directory() . '/include/breadcrumbs.php'); ?>
     <div class="inner">
       <p class="gallery-header__lead">
