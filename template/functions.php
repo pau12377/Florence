@@ -31,9 +31,9 @@ function get_child_class() {
   $class = '';
 
   if (isFlorenceA()) {
-    $class = 'florenceA';
+    $class = 'FlorenceA';
   } else if (isFlorenceB()) {
-    $class = 'florenceB';
+    $class = 'FlorenceB';
   }
   
   return $class;
