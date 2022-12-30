@@ -1,7 +1,7 @@
 <main>
   <div class="gallery-header">
-    <?php include(get_template_directory() . '/include/gallery_header.php'); ?>
-    <?php include(get_template_directory() . '/include/breadcrumbs.php'); ?>
+    <?php include(get_template_directory() . '/include/gallery/header.php'); ?>
+    <?php include(get_template_directory() . '/include/gallery/breadcrumbs.php'); ?>
     <div class="inner">
       <p class="gallery-header__lead">
         全室 南向きなので部屋の中がとても明るく、開放感があります。<br />
