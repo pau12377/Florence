@@ -31,23 +31,18 @@
       </div>
       <div class="news__card">
         <?php
-          $arg = array(
-          'posts_per_page' => 3, // 表示する件数
-          'category_name' => get_the_category()[0]->cat_name // 表示したいカテゴリーのスラッグを指定
-          );
-          $posts = get_posts( $arg );
-          if( $posts ):
+          $posts_count = ['posts_per_page' => 3, 'category_name' => get_child_class()]; // 表示件数の指定
+          $posts = get_posts($posts_count);
+          if($posts):
+            foreach ($posts as $post):
+              setup_postdata($post);
         ?>
+              <div class="news__item">
+                <span class="news__data"><?php the_time('Y.m.d'); ?></span>
+                <span class="news__content"><?php the_title(); ?></span>
+              </div>
         <?php
-          foreach ( $posts as $post ):
-          setup_postdata( $post );
-        ?>
-        <div class="news__item">
-          <span class="news__data"><?php the_time( 'Y.m.d' ); ?></span>
-          <span class="news__content"><?php the_title(); ?></span>
-        </div>
-        <?php endforeach; ?>      
-        <?php
+            endforeach;
           endif;
           wp_reset_postdata();
         ?>
