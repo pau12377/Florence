@@ -2,6 +2,8 @@
 function enqueue_scripts() {
   // css
   wp_enqueue_style('swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css' , array(), '',);
+  wp_enqueue_style('lightgallery-css', 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css' , array(), '',);
+  wp_enqueue_style('lg-thumbnail-css', 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lg-thumbnail.min.css' , array(), '',);
   wp_enqueue_style('main-css', get_stylesheet_uri());
   // js
   wp_enqueue_script('jquery-min-js', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js' , array(), '3.6.1', true);
@@ -31,9 +33,9 @@ function get_child_class() {
   $class = '';
 
   if (isFlorenceA()) {
-    $class = 'FlorenceA';
+    $class = 'florenceA';
   } else if (isFlorenceB()) {
-    $class = 'FlorenceB';
+    $class = 'florenceB';
   }
   
   return $class;
