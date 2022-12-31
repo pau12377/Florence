@@ -28,6 +28,12 @@
   <div class="news-body__date">
     <?php echo get_the_date(); ?>
   </div>
+  <div class="news-body__title">
+    <?php echo get_the_title(); ?>
+  </div>
+  <div class="news-body__content">
+    <?php echo get_the_content(); ?>
+  </div>
 </div>
 
 <?php get_footer(); ?>
