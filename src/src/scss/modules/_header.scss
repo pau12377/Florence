@@ -51,6 +51,14 @@
   transition: $V_TRANSITION_300MS;
 }
 
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .florenceA .navigation__item:last-of-type {
+    background: $V_COLOR_WHITE0;
+    transition: $V_TRANSITION_300MS;
+  }
+}
+
 // FlorenceB //
 .florenceB .navigation__item:last-of-type {
   background: $V_COLOR_BLUE_MAIN;
@@ -59,4 +67,12 @@
 .florenceB .navigation__item:last-of-type:hover {
   background: darken($V_COLOR_BLUE_MAIN, 15%);
   transition: $V_TRANSITION_300MS;
+}
+
+// FlorenceB mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .florenceB .navigation__item:last-of-type {
+    background: $V_COLOR_WHITE0;
+    transition: $V_TRANSITION_300MS;
+  }
 }
