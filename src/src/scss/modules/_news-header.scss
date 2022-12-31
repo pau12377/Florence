@@ -1,0 +1,35 @@
+.news-header {
+  background-image: url(img/Florence_news-header.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 150px;
+  margin-left: auto;
+  border-radius: 0 0 0 50px;
+  position: relative;
+}
+.news-header .title {
+  position: absolute;
+  top: 50px;
+  left: -65px;
+}
+.news-header__lead {
+  line-height: 1.8;
+  padding: 100px 0 20px 0;
+}
+
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .news-header .title {
+    position: absolute;
+    top: 50px;
+    left: -20%;
+  }
+  .news-header__header {
+    background-position: right;
+  }
+  .news-header__lead {
+    font-size: $V_FONT_SIZE_SM;
+    padding: 40px 0;
+  }
+}
