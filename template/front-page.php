@@ -31,7 +31,7 @@
   </div>
   <?php include(get_template_directory() . '/include/news.php'); ?>
   <div class="about">
-    <div class="inner">
+    <div class="inner" id="about">
       <div class="title">
         <h2 class="title__main">
           <span class="title__main--head">A</span>bout
@@ -51,7 +51,7 @@
     </div>
   </div>
   <div class="apartment">
-    <div class="inner">
+    <div class="inner" id="apartment">
       <div class="title">
         <h2 class="title__main">
           <span class="title__main--head">A</span>partment
@@ -100,7 +100,7 @@
     </div>
   </div>
   <div class="information">
-    <div class="inner">
+    <div class="inner" id="information">
       <div class="title">
         <h2 class="title__main">
           <span class="title__main--head">I</span>nformation
@@ -138,7 +138,7 @@
     </div>
   </div>
   <div class="contact">
-    <div class="inner">
+    <div class="inner" id="contact">
       <div class="contact__wrap">
         <div class="title">
           <h2 class="title__main">
