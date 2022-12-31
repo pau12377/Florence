@@ -24,4 +24,10 @@
     </ul>
   </div>
 </nav>
+<div class="news-body">
+  <div class="news-body__date">
+    <?php echo get_the_date(); ?>
+  </div>
+</div>
+
 <?php get_footer(); ?>
