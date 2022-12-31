@@ -15,7 +15,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Florence</title>
+    <title>Florence | 群馬大学医学部女子専用アパート</title>
+    <meta name="description" content="Florenceは群馬大学医学部の女子学生専用アパートです。大学のすぐ近くにあるので、通学も徒歩2分です。" />
+    <meta name="keywords" content="群馬,群馬大学医学部,アパート,女性,学生,一人暮らし" />
     <?php wp_head(); ?>
   </head>
 <body <?php body_class(); ?>>
