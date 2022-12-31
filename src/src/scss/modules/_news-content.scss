@@ -1,0 +1,39 @@
+.news-content {
+  margin-top: 80px;
+}
+.news-content__date {
+  font-size: $V_FONT_SIZE_SM;
+}
+.news-content__title {
+  font-size: $V_FONT_SIZE_2XL;
+  padding: 30px 0;
+  font-weight: bold;
+  border-bottom: 1px solid $V_COLOR_GRAY3;
+}
+.news-content__content {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.news-content__content p {
+  line-height: 1.8;
+}
+
+// FlorenceA mobile //
+@media screen and (max-width: $V_MEDIA_SCREN_WIDTH) {
+  .news-content {
+    margin-top: 40px;
+  }
+  .news-content__date {
+    font-size: $V_FONT_SIZE_XS;
+  }
+  .news-content__title {
+    font-size: $V_FONT_SIZE_XL;
+    padding: 20px 0;
+    line-height: 1.4;
+  }
+  .news-content__content {
+    font-size: $V_FONT_SIZE_SM;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+}

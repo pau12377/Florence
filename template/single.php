@@ -24,15 +24,19 @@
     </ul>
   </div>
 </nav>
-<div class="news-body">
-  <div class="news-body__date">
-    <?php echo get_the_date(); ?>
+<div class="news-content">
+  <div class="inner">
+    <div class="news-content__date">
+      <?php echo get_the_date(); ?>
+    </div>
+    <div class="news-content__title">
+      <?php echo get_the_title(); ?>
+    </div>
+    <div class="news-content__content">
+      <?php echo get_the_content(); ?>
+    </div>
   </div>
-  <div class="news-body__title">
-    <?php echo get_the_title(); ?>
-  </div>
-  <div class="news-body__content">
-    <?php echo get_the_content(); ?>
+</div>
   </div>
 </div>
 
