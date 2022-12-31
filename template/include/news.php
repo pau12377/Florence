@@ -15,8 +15,8 @@
             setup_postdata($post); // 記事データの取得
       ?>
             <div class="news__item">
-              <span class="news__data"><?php the_time('Y.m.d'); ?></span>
-              <span class="news__content"><?php the_title(); ?></span>
+              <span class="news__data"><?php the_time('Y年m月j日'); ?></span>
+              <a class="news__content" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
             </div>
       <?php
           endforeach; // ループの終了
