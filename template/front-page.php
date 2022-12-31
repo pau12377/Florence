@@ -19,14 +19,6 @@
         <p class="swiper-catchphrase">女子限定アパート</p>
       </div>
       <div class="swiper-pagination"></div>
-      <div class="swiper-vacancy">
-        <div class="swiper-vacancy__text">
-          空室<span class="swiper-vacancy__number">1</span>件
-        </div>
-        <div class="swiper-vacancy__contact">
-          お問い合わせは<br class="swiper-vacancy__contact--mobile" />こちら
-        </div>
-      </div>
     </div>
   </div>
   <?php include(get_template_directory() . '/include/news.php'); ?>
