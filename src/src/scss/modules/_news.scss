@@ -10,7 +10,7 @@
 .news__card {
   background: $V_COLOR_WHITE0;
   box-shadow: 0 5px 20px 0 $V_COLOR_GRAY3;
-  padding: 20px;
+  padding: 10px;
   width: 810px;
   font-size: $V_FONT_SIZE_SM;
 }
@@ -19,6 +19,11 @@
 }
 .news__content {
   margin-left: 10px;
+  line-height: 1.4;
+}
+.news__item {
+  margin: 10px;
+  display: flex;
 }
 
 //mobile
@@ -38,5 +43,9 @@
   .news__content {
     margin-left: 0px;
     margin-top: 10px;
+  }
+  .news__item {
+    display: flex;
+    flex-direction: column;
   }
 }

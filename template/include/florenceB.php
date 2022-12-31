@@ -21,20 +21,7 @@
       <div class="swiper-pagination"></div>
     </div>
   </div>
-  <div class="news">
-    <div class="inner news__box">
-      <div class="news-title">
-        <h2 class="news-title__main">
-          <span class="news-title__head">N</span>ews
-        </h2>
-        <h3 class="news-title__second">新着情報</h3>
-      </div>
-      <div class="news__card">
-        <span class="news__data">2022年10月31日</span>
-        <span class="news__content">サイトをオープンしました。</span>
-      </div>
-    </div>
-  </div>
+  <?php include(get_template_directory() . '/include/news.php'); ?>
   <div class="about">
     <div class="inner" id="about">
       <div class="title">
