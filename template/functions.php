@@ -32,27 +32,40 @@ function custom_body_class($classes) {
 function get_child_class() {
   $class = '';
 
-  if (isFlorenceA()) {
-    $class = 'florenceA';
-  } else if (isFlorenceB()) {
-    $class = 'florenceB';
+  if (isFlorenceACategory()) {
+    $class = 'FlorenceA';
+  } else if (isFlorenceBCategory()) {
+    $class = 'FlorenceB';
   }
   
   return $class;
 }
 
 function isTop() {
-  return !isFlorenceA() && !isFlorenceB() && !isGallery();
+  return strtolower($_SERVER["REQUEST_URI"]) == '/';
 }
 
-function isFlorenceA() {
+function isFlorenceACategory() {
   return strpos(strtolower($_SERVER["REQUEST_URI"]), 'florencea');
 }
 	
-function isFlorenceB() {
+function isFlorenceBCategory() {
   return strpos(strtolower($_SERVER["REQUEST_URI"]), 'florenceb');
+}
+
+function isFlorenceA() {
+  return strtolower($_SERVER["REQUEST_URI"]) == '/florencea/';
+}
+	
+function isFlorenceB() {
+  return strtolower($_SERVER["REQUEST_URI"]) == '/florenceb/';
 }
 
 function isGallery() {
   return strpos(strtolower($_SERVER["REQUEST_URI"]), 'gallery');
+}
+
+function isSingle() {
+  // 新たなページ判定が追加された際は条件の変更が必須
+  return !isGallery() && !isTop() && !isFlorenceA() && !isFlorenceB();
 }

@@ -36,7 +36,7 @@
     </div>
     <nav class="navigation">
       <ul class="navigation__card">
-        <?php if (!isGallery()) { ?>
+        <?php if (!isGallery() && !isSingle()) { ?>
           <li class="navigation__item">
             <a class="navigation__link" href="#about">About</a>
           </li>
@@ -45,7 +45,7 @@
               <a class="navigation__link" href="#apartment">Apartment</a>
             </li>
           <?php } ?>
-          <?php if (!isTop()) { ?>
+          <?php if (isFlorenceA() || isFlorenceB()) { ?>
             <li class="navigation__item">
               <a class="navigation__link" href="#feature">Feature</a>
             </li>
