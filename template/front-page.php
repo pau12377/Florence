@@ -38,8 +38,22 @@
         <h3 class="news-title__second">新着情報</h3>
       </div>
       <div class="news__card">
-        <span class="news__data">2022年10月31日</span>
-        <span class="news__content">サイトをオープンしました。</span>
+      <?php
+        $args = array(
+        'posts_per_page' => 3 // 表示件数の指定
+        );
+        $posts = get_posts( $args );
+        foreach ( $posts as $post ): // ループの開始
+        setup_postdata( $post ); // 記事データの取得
+      ?>
+      <div class="news__item">
+        <span class="news__data"><?php the_time('Y.m.d'); ?></span>
+        <span class="news__content"><?php the_title(); ?></span>
+      </div>
+      <?php
+        endforeach; // ループの終了
+        wp_reset_postdata(); // 直前のクエリを復元する
+      ?>
       </div>
     </div>
   </div>
